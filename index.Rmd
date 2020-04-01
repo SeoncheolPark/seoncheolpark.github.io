@@ -1,0 +1,30 @@
+---
+title: "Seoncheol Park's Website"
+description: |
+  Welcome to my website.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+# 쉽고 빠르게 수준급의 Github 블로그 만들기
+# https://dreamgonfly.github.io/2018/01/27/jekyll-remote-theme.html
+
+# R로 나만의 웹페이지 만들기, 2탄
+# https://mrchypark.github.io/post/r로나만의-웹페이지-만들기-2탄-github-pages/
+
+# Github의 default site (seoncheolpark.github.io) 는 /doc folder로 output 디렉토리를 설정할 수 없음
+# output_dir: "docs" -> output_dir: "." 으로 해주면 된다.
+# https://www.faculty.agecon.vt.edu/resources/distillRtips.pdf
+
+```
+
+Hello, I am Seoncheol Park. Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
+

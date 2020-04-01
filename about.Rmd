@@ -1,0 +1,68 @@
+---
+title: "About"
+description: |
+  Some information about me!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Seoncheol Park
+
+Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
+
+### Education
+
+- Ph.D., Statistics, [Seoul National University](http://www.snu.ac.kr), Seoul, Korea, 2019.
+
+- B.S., Mathematical Sciences (Double Major with Management Sciences), [KAIST](http://www.kaist.ac.kr), Daejeon, Korea, 2013.
+
+### Research Interest
+
+- Spatio-temporal data analysis and extreme value statistics, application to environmental data
+
+### Publications
+
+1. **S. Park**, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+
+1. **S. Park** and H-S. Oh (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+
+### Presentations
+
+1. Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
+1. [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10th Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
+1. Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
+1. Multiscale modeling for particulate matter extremes. *2015 The Korean Statistical Society Autumn Conference*, Yongin, Korea, November 2015.
+1. [Multiscale modeling for particulate matter extremes in Seoul](http://data.si.re.kr/node/623). *The Seoul Institute Research Competition 2015*, Seoul, Korea, November 2015.
+1. Prediction of extreme particulate matter : the use of quantile regression forests. *2014 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2014.
+
+### Honors and Awards
+
+1. Excellence award (3rd place), KSIAM-MathWorks problem challenge, *Korea Society for Industrial and Applied Mathematics*, Sep 2018.
+1. Best oral presentation award (Pre-PhD): Multiresolution analysis for spatio-temporal data. *The Korean Statistical Society*, May 2017.
+1. Excellence award, [The Seoul Institute Research Competition 2015](http://data.si.re.kr/node/623), *The Seoul Institute*, November 2015.
+
+### Grants
+
+- Sohn Dong-Joon Scholarship, College of Natural Sciences (SNU), May 2016 ~ Aug 2019
+
+### Refree
+
+- Journal of Agricultural, Biological and Environmental Statistics
+- Extremes
+- Stochastic Environmental Research and Risk Assessment
+- Computational Statistics
+- Journal of the Korean Statistical Society
+
+### Teaching Experience
+
+- Teaching assistant, 033-020, Statistics Lab, Seoul National University
+- Teaching assistant, 326-418, Applications of Function Estimation and Lab, Seoul National University
+- Teaching assistant, 326-214, Sampling Design and Survey Practice, Seoul National University
+- Teaching assistant, 033-019, Statistics, Seoul National University
+
+### Contact Me
+
+[pscstat@gmail.com](mailto:pscstat@gmail.com)
+

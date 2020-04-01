@@ -1,0 +1,26 @@
+name: "seoncheolpark.github.io"
+title: "Seoncheol Park's Website"
+description: |
+  Seoncheol Park's Website
+output_dir: "."
+navbar:
+  logo:
+      image: images/jekyll-logo.png
+      href: https://seoncheolpark.github.io/
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Gitbooks"
+      menu:
+        - text: "통계공부와 관련된 글들"
+          href: https://seoncheolpark.github.io/book/_book/
+    - text: "Links"
+      href: links.html
+    - icon: fab fa-github
+      href: https://github.com/SeoncheolPark
+output: 
+  distill::distill_article:
+    css: styles.css
+

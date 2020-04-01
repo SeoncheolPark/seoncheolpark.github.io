@@ -1,2 +1,2 @@
 # seoncheolpark.github.io
-My website
+Website by Distill
