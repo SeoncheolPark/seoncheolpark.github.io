@@ -1,7 +1,7 @@
 name: "seoncheolpark.github.io"
-title: "Seoncheol Park's Website"
+title: "Seoncheol Park"
 description: |
-  Seoncheol Park's Website
+  Seoncheol Park
 output_dir: "."
 navbar:
   logo:

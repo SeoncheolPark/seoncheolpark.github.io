@@ -1,5 +1,5 @@
 ---
-title: "Seoncheol Park's Website"
+title: "Seoncheol Park"
 description: |
   Welcome to my website.
 site: distill::distill_website
