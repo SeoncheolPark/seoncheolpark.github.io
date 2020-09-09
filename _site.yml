@@ -14,8 +14,6 @@ navbar:
       href: about.html
     - text: "Gitbooks"
       menu:
-        - text: "Probability"
-          href: Probtheory_solution.html
         - text: "통계공부와 관련된 글들"
           href: https://seoncheolpark.github.io/book/_book/
     - text: "Links"
