@@ -8,11 +8,11 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### Seoncheol Park
+## Seoncheol Park
 
 Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
-### Journals
+## Journals
 
 - [Journal of the Royal Statistical Society: Series B](http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9868)
 
@@ -150,7 +150,7 @@ Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consort
 
 - [Marco Geraci (`lqmm` package)](https://marcogeraci.wordpress.com/software/)
 
-### Useful Sites
+## Useful Sites
 
 - [Seeing Theory](https://seeing-theory.brown.edu)
 
@@ -192,7 +192,7 @@ Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consort
 
 - [극지원격탐사센터](http://krsc.polar.re.kr/main.html)
 
-### Data
+## Data
 
 - [National Climatic Data Center - NOAA](http://www.ncdc.noaa.gov/)
 
@@ -261,6 +261,5 @@ Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consort
 - [물환경정보시스템](http://water.nier.go.kr/publicMain/mainContent.do)
 
 - [수질총량정보시스템](http://tmdlms.nier.go.kr/Intro.do?)
-
 
 - [TLC Trip Record Data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
