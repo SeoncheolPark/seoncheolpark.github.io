@@ -12,10 +12,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Gitbooks"
+    - text: "Course"
       menu:
-        - text: "통계공부와 관련된 글들"
-          href: https://seoncheolpark.github.io/book/_book/
+        - text: "Fake Statistics"
+          href: https://seoncheolpark.github.io/course-fakestat/
     - text: "Links"
       href: links.html
     - icon: fab fa-github
