@@ -32,9 +32,9 @@ Now I am a post-doctoral research fellow in the [Pacific Climate Impacts Consort
 
 ### Under Review
 
-1. **S. Park** and H-S. Oh (2020+). Lifting Scheme for Streamflow Data in River Networks.
+1. **S. Park** and H-S. Oh (2020+). Lifting scheme for streamflow data in river networks.
 
-1. J. Kim, **S. Park**, J. Kwon, Y. Lim and H-S. Oh (2020+). Estimation of Spatio-Temporal Extreme Distribution using a Quantile Factor Model.
+1. J. Kim, **S. Park**, J. Kwon, Y. Lim and H-S. Oh (2020+). Estimation of spatio-temporal extreme distribution using a quantile factor model.
 
 ## Presentations
 
