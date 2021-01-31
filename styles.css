@@ -11,19 +11,26 @@ color: rgba(255, 255, 255, 0.8);
 
 .distill-site-nav a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: #927c7e;
+  background-color: #927c7e;
 }
 
 .distill-site-nav a:hover {
-  color: white;
+  background-color: #927c7e;
 }
 
 .distill-site-header {
+  background-color: #927c7e;
 }
 
 .distill-site-footer {
+  background-color: #927c7e;
 }
 
+
+.distill-site-sidebar a {
+  background-color: #927c7e;
+}
 
 /*
 font color (PCIC)
