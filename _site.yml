@@ -5,8 +5,8 @@ description: |
 output_dir: "."
 navbar:
   logo:
-      image: images/jekyll-logo.png
-      href: https://seoncheolpark.github.io/
+      image: images/01.svg
+      href: http://stat.chungbuk.ac.kr
   right:
     - text: "Home"
       href: index.html
@@ -14,11 +14,19 @@ navbar:
       href: about.html
     - text: "Course"
       menu:
-        - text: "Fake Statistics"
-          href: https://seoncheolpark.github.io/course-fakestat/
+        - text: "2021 회귀분석"
+          href: https://seoncheolpark.github.io/course-reg/
+        - text: "2021 통계시뮬레이션"
+          href: https://seoncheolpark.github.io/course-statsim/
+        - text: "2021 통계적방법론"
+          href: https://seoncheolpark.github.io/course-statmethod/
     - text: "Links"
       href: links.html
     - icon: fab fa-github
       href: https://github.com/SeoncheolPark
-output: distill::distill_article
+    - icon: fas fa-home
+      href: https://seoncheolpark.github.io
+output: 
+  distill::distill_article:
+    css: styles.css
 

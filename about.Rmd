@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Now I am a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
+## Professional Experiences
+
+- Post-Doctoral Research Fellow, [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/), [University of Victoria](https://www.uvic.ca), Victoria, British Columbia, Canada, August 2019 ~ January 2021.
+
 ## Education
 
 - Ph.D., Statistics, [Seoul National University](http://www.snu.ac.kr), Seoul, Korea, 2019.
@@ -55,7 +59,7 @@ Now I am a post-doctoral research fellow at the [Pacific Climate Impacts Consort
 
 ## Grants
 
-- Sohn Dong-Joon Scholarship, College of Natural Sciences (SNU), May 2016 ~ Aug 2019
+- Sohn Dong-Joon Scholarship, College of Natural Sciences (SNU), May 2016 ~ August 2019
 
 ## Refree
 
@@ -67,10 +71,9 @@ Now I am a post-doctoral research fellow at the [Pacific Climate Impacts Consort
 
 ## Teaching Experience
 
-- Teaching assistant, 033-020, Statistics Lab, Seoul National University
-- Teaching assistant, 326-418, Applications of Function Estimation and Lab, Seoul National University
-- Teaching assistant, 326-214, Sampling Design and Survey Practice, Seoul National University
-- Teaching assistant, 033-019, Statistics, Seoul National University
+### Teaching Assistant
+
+- (033-020) Statistics Lab, (326-418) Applications of Function Estimation and Lab, (326-214) Sampling Design and Survey Practice, and (033-019) Statistics at Seoul National University
 
 ## Contact Me
 

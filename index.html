@@ -1272,8 +1272,380 @@
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <style type="text/css">
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #927c7e;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  /*
+  color: rgba(255, 255, 255, 0.8);
+  */
+  
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .distill-site-nav a:hover {
+    color: white;
+  }
+  
+  .distill-site-header {
+  }
+  
+  .distill-site-footer {
+  }
+  
+  
+  /*
+  font color (PCIC)
+  #064665 (어두움)
+  #70a4ba
+  #d9e8df (가장 밝음)
+  #7fb985
+  */
+  
+  /*font color (Chungbuk)
+  #990000 (충북대마룬)
+  #86163f (마룬)
+  #e9e1e4 (거의흰색)
+  #b4a494 (회색)
+  #927c7e (진회색)
+  #c894a8 (분홍)
+  #c48499 (진분홍)
+  #a65374 (더진한분홍)
+  #6c0c2c (진한마룬)
+  */
+  
+  
+  
+  /* CSS 기초
+  
+  (1) 태그 선택자: HTML요소를 직접 지칭하는 가장 간단한 선택자
+  p { background: yellowgreen; color: darkgreen; }
+  
+  CSS
+  <!-- HTML -->  
+  <p>태그 선택자(Type Selector)</p>  
+  <div>태그 선택자(Type Selector)</div>  
+  태그에는 개발자가 지정해주는 스타일이 적용되지 않습니다.
+  
+  (2) 클래스 선택자(Class Selector)
+   CSS 
+  .class1 { background: yellowgreen; color: darkgreen; }
+  div.class2 { background: darkgreen; color: yellowgreen; }
+  
+  <!-- HTML -->  
+  <p class="class1">클래스 선택자(Class Selector)</p>  
+  <p class="class2">클래스 선택자(Class Selector)</p>  
+  <div class="class2">클래스 선택자(Class Selector)</div>  
+  
+  클래스 선택자는 주어진 값을 class속성값으로 가진 HTML요소를 찾아 선택합니다. 이때 선택하려는 속성값 앞에 마침표를 추가해서 작성합니다. [예제 3] CSS 코드의 첫번째 스타일 규칙은 class1이라는 class 속성값을 가진 모든 태그를 선택합니다. 하지만 두번째 스타일 규칙처럼 마침표 앞에 태그를 붙여주면 범위를 그 특정 태그에 한합니다. 
+  
+  (3) 하위 선택자와 자식 선택자
+  하위 선택자  E F	E 요소의 자손인 F 요소를 선택합니다.
+  section ul { border: 1px dotted black; }
+  
+  자식 선택자 E>F	E 요소의 자식인 F 요소를 선택합니다.
+  section>ul { border: 1px dotted black; }  
+  
+  태그들이 포함 관계를 가질 때 포함하는 요소를 부모 요소, 포함되는 요소를 자식 요소라고 합니다. 하위 선택자는 부모 요소에 포함된 '모든' 하위 요소에 스타일을 적용합니다. 하지만, 자식 선택자는 부모의 바로 아래 자식 요소에만 적용합니다. [예제 5]를 통해 선택되는 요소는 다음과 같습니다.
+  
+  End of CSS*/
+  
+  
+  /*서울대 컬러
+  #20418e (진한것)
+  #c0cadf (연한것)
+  */
+  
+  .snu {
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: bold;
+      color: #c0cadf;
+      position: relative !important;
+      background: #20418e;
+      float: left;
+      padding: 1px 1px;
+      margin: 0 1px 1px 0;
+      border-radius: 5px;
+  }
+  
+  /*카이스트 컬러
+  #04448d (진한것)
+  #4cade0 (보통)
+  #c5d9ea (연한것)
+  */
+  
+  .kaist {
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: bold;
+      color: #4cade0;
+      position: relative !important;
+      background: #04448d;
+      float: left;
+      padding: 1px 1px;
+      margin: 0 1px 1px 0;
+      border-radius: 5px;
+  }
+  
+  /*
+  .theorem {
+      display: block;
+      margin: 12px 0;
+      font-style: italic;
+      background: #d9e8df;
+      border-radius: 15px;
+      color: #000000;
+  }
+  .theorem[data-attribution]:before {
+      content: "Theorem " counter(theorem) " (" attr(data-attribution) ")";
+      font-weight: bold;
+      font-style: normal;
+      color: #064665;
+  }
+  .lemma {
+      display: block;
+      margin: 12px 0;
+      font-style: italic;
+      background: #d9e8df;
+      border-radius: 15px;
+      color: #000000;
+  }
+  .lemma:before {
+      content: "Lemma.";
+      font-weight: bold;
+      font-style: normal;
+      color: #064665;
+  }
+  .proof {
+      display: block;
+      margin: 12px 0;
+      font-style: normal;
+      background: #d9e8df;
+      border-radius: 15px;
+      color: #000000;
+  }
+  .proof:before {
+      content: "Proof.";
+      font-style: italic;
+      color: #064665;
+  }
+  .proof:after {
+      content: "\25FC";
+      float:right;
+  }
+  .definition {
+      display: block;
+      margin: 12px 0;
+      font-style: normal;
+      background: #d9e8df;
+      border-radius: 15px;
+      color: #000000;
+  }
+  .definition:before {
+      content: "Definition.";
+      font-weight: bold;
+      font-style: normal;
+      color: #064665;
+  }
+  */
+  
+  /*reference
+  https://github.com/darknmt/theorems-css/blob/master/theorems.css
+  */
+  body
+  {
+      counter-reset: theorem;
+  }
+  
+  .info {
+      display: block;
+      margin: 50px 70px 50px 70px;
+      font-size: 85%;
+      background-color:   #fce8e8;
+      border-left: 5px solid;
+      border-color:  #f4a4a4;
+      padding:10px 10px 5px 20px;
+  }
+  
+  .info:before {
+      display: none;
+      content: "Infomation. ";
+      font-weight: bold;
+      font-style: normal;
+  }
+  
+  .example {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: italic;
+      background-color: AntiqueWhite;
+      border-left: 6px solid;
+      border-color: BurlyWood;
+      padding:10px 10px 10px 20px;
+  }
+  .example:before {
+      content: "Example (" attr(btit) "). ";
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: underline;
+  }
+  
+  .proposition {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: italic;
+      background-color: Wheat;
+      border-left: 6px solid;
+      border-color: Maroon;
+      padding:10px 10px 10px 20px;
+  }
+  .proposition:before {
+      content: "Proposition (" attr(btit) "). ";
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: underline;
+  }
+  .proposition:after {
+      content: "#REF:    "  attr(id);
+      text-align: right;
+      float:right;
+      font-style: italic;
+      background-color:   #ecdfec;
+      color: Tomato;
+      border-right: 6px solid;
+      border-color:    #b181b1;
+      padding: 5px 15px 5px 15px;
+  }
+  
+  .remark {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: italic;
+      background-color:  #cefdce;
+      border-left: 6px solid;
+      border-color: DarkGreen;
+      padding:10px 10px 10px 20px
+  }
+  .remark:before {
+      content: "Remark.";
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: underline;
+  }
+  .remark:after {
+      content: "#REF:    "  attr(id);
+      text-align: right;
+      float:right;
+      font-style: italic;
+      background-color:   #ecdfec;
+      color: Tomato;
+      border-right: 6px solid;
+      border-color:    #b181b1;
+      padding: 5px 15px 5px 15px;
+  }
+  
+  .theorem {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: italic;
+      background-color: Lemonchiffon;
+      border-left: 6px solid;
+      border-color: Tomato;
+      padding:10px 10px 10px 20px;
+  }
+  .theorem:before {
+      content: "Theorem ("  attr(btit) "). ";
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: underline;
+  }
+  
+  .theorem:after {
+      content: "#REF:    "  attr(id);
+      text-align: right;
+      float:right;
+      font-style: italic;
+      background-color:   #ecdfec;
+      color: Tomato;
+      border-right: 6px solid;
+      border-color:    #b181b1;
+      padding: 5px 15px 5px 15px;
+  }
+  
+  .lemma {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: italic;
+      background-color: Lavender;
+      border-left: 6px solid;
+      border-color: violet;
+      padding:10px 10px 10px 20px;
+  }
+  .lemma:before {
+      content: "Lemma (" attr(btit) "). ";
+      font-weight: bold;
+      font-style: normal;
+  }
+  .lemma:after {
+      content: "#REF:    "  attr(id);
+      text-align: right;
+      float:right;
+      font-style: italic;
+      background-color:   #ecdfec;
+      color: Tomato;
+      border-right: 6px solid;
+      border-color:    #b181b1;
+      padding: 5px 15px 5px 15px;
+  }
+  .proof {
+      display: block;
+      margin: 20px 0 0 30px;
+      font-style: normal;
+      padding:10px 10px 10px 30px;
+      border-left: 6px solid;
+      border-color: DarkGrey;
+      background-color: WhiteSmoke;
+  }
+  .proof:before {
+      content: "Proof.";
+      font-style: italic;
+  }
+  .proof:after {
+      content: "\25FC";
+      float:right;
+  }
+  
+  .definition {
+      display: block;
+      margin: 20px 0 40px 0;
+      font-style: normal;
+      background-color: LightCyan;
+      border-left: 6px solid;
+      border-color: DarkCyan;
+      padding:10px 20px 10px 20px;
+  }
+  .definition:before {
+      content: "Definition (" attr(btit) "). ";
+      font-weight: bold;
+      font-style: normal;
+  }
+  
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+  </style>
   <!--/radix_placeholder_site_in_header-->
 
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -1290,8 +1662,8 @@
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a class="logo" href="https://seoncheolpark.github.io/">
-<img src="images/jekyll-logo.png" alt="Logo"/>
+<a class="logo" href="http://stat.chungbuk.ac.kr">
+<img src="images/01.svg" alt="Logo"/>
 </a>
 <a href="index.html" class="title">Seoncheol Park</a>
 </div>
@@ -1305,12 +1677,17 @@ Course
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="https://seoncheolpark.github.io/course-fakestat/">Fake Statistics</a>
+<a href="https://seoncheolpark.github.io/course-reg/">2021 회귀분석</a>
+<a href="https://seoncheolpark.github.io/course-statsim/">2021 통계시뮬레이션</a>
+<a href="https://seoncheolpark.github.io/course-statmethod/">2021 통계적방법론</a>
 </div>
 </div>
 <a href="links.html">Links</a>
 <a href="https://github.com/SeoncheolPark">
 <i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://seoncheolpark.github.io">
+<i class="fas fa-home" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -1343,7 +1720,7 @@ Course
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>© Copyright 2020 Seoncheol Park, powered by <a href="https://rstudio.github.io/distill/">Distill for R Markdown</a></p>
+<p>© Copyright <script>document.write(new Date().getFullYear())</script> Seoncheol Park, powered by <a href="https://rstudio.github.io/distill/">Distill for R Markdown</a></p>
 <p>Software licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, v2.0</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->

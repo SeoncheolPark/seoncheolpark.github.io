@@ -1,9 +1,13 @@
 .distill-site-nav {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #455a64;
+  background-color: #927c7e;
   font-size: 15px;
   font-weight: 300;
 }
+
+/*
+color: rgba(255, 255, 255, 0.8);
+*/
 
 .distill-site-nav a {
   color: inherit;
@@ -28,6 +32,19 @@ font color (PCIC)
 #d9e8df (가장 밝음)
 #7fb985
 */
+
+/*font color (Chungbuk)
+#990000 (충북대마룬)
+#86163f (마룬)
+#e9e1e4 (거의흰색)
+#b4a494 (회색)
+#927c7e (진회색)
+#c894a8 (분홍)
+#c48499 (진분홍)
+#a65374 (더진한분홍)
+#6c0c2c (진한마룬)
+*/
+
 
 
 /* CSS 기초
@@ -63,6 +80,7 @@ section>ul { border: 1px dotted black; }
 태그들이 포함 관계를 가질 때 포함하는 요소를 부모 요소, 포함되는 요소를 자식 요소라고 합니다. 하위 선택자는 부모 요소에 포함된 '모든' 하위 요소에 스타일을 적용합니다. 하지만, 자식 선택자는 부모의 바로 아래 자식 요소에만 적용합니다. [예제 5]를 통해 선택되는 요소는 다음과 같습니다.
 
 End of CSS*/
+
 
 /*서울대 컬러
 #20418e (진한것)
