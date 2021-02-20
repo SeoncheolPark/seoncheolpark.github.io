@@ -32,7 +32,7 @@ Now I am a post-doctoral research fellow at the [Pacific Climate Impacts Consort
 
 (<sup>$*$</sup>: Corresponding author)
 
-1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, In Press.
+1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
 
 1. **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
 
