@@ -36,11 +36,11 @@ Now I am a post-doctoral research fellow at the [Pacific Climate Impacts Consort
 
 1. **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
 
-1. **S. Park** and H-S. Oh (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
 
 ### Under Review
 
-1. **S. Park** and H-S. Oh (2020+). Lifting scheme for streamflow data in river networks.
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2020+). Lifting scheme for streamflow data in river networks.
 
 ## Presentations
 
