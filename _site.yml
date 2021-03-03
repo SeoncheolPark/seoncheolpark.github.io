@@ -16,7 +16,7 @@ navbar:
       menu:
         - text: "2021 회귀분석"
           href: https://seoncheolpark.github.io/course-reg/
-        - text: "2021 통계시뮬레이션"
+        - text: "2021 통계모의실험"
           href: https://seoncheolpark.github.io/course-statsim/
         - text: "2021 통계적방법론"
           href: https://seoncheolpark.github.io/course-statmethod/
