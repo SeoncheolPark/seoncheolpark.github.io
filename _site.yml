@@ -12,14 +12,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Course"
-      menu:
-        - text: "2021 회귀분석"
-          href: https://seoncheolpark.github.io/course-reg/
-        - text: "2021 통계모의실험"
-          href: https://seoncheolpark.github.io/course-statsim/
-        - text: "2021 통계적방법론"
-          href: https://seoncheolpark.github.io/course-statmethod/
     - text: "Links"
       href: links.html
     - icon: fab fa-github

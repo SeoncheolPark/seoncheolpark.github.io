@@ -1,6 +1,6 @@
 .distill-site-nav {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #927c7e;
+  background-color: #c894a8;
   font-size: 15px;
   font-weight: 300;
 }
@@ -11,25 +11,25 @@ color: rgba(255, 255, 255, 0.8);
 
 .distill-site-nav a {
   color: inherit;
-  text-decoration: #927c7e;
-  background-color: #927c7e;
+  text-decoration: #c894a8;
+  background-color: #c894a8;
 }
 
 .distill-site-nav a:hover {
-  background-color: #927c7e;
+  background-color: #c894a8;
 }
 
 .distill-site-header {
-  background-color: #927c7e;
+  background-color: #c894a8;
 }
 
 .distill-site-footer {
-  background-color: #927c7e;
+  background-color: #c894a8;
 }
 
 
 .distill-site-sidebar a {
-  background-color: #927c7e;
+  background-color: #c894a8;
 }
 
 /*

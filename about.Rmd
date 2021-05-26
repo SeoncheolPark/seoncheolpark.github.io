@@ -46,6 +46,12 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ## Presentations
 
+<!--
+1. Lifting Scheme for Streamflow Data in River Networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics, Seoul, Korea, July 2021.
+
+1. A New Approach for Modelling the Spatial Extent of Agricultural Drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress, Victoria, Canada, June 2021.
+-->
+
 1. Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
 1. [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10th Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
 1. Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
@@ -73,9 +79,29 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ## Teaching Experience
 
+### Chungbuk National University
+
+- Regression Analysis (2021 Spring)
+
+- Statistical Simulation (2021 Spring)
+
+- Statistical Methodology (2021 Spring)
+
+<!--
+
+- Insurance Statistics (2021 Fall)
+
+- Financial Statistics (2021 Fall)
+
+- Deep Learning (2021 Fall)
+
+-->
+
+<!--
 ### Teaching Assistant
 
 - (033-020) Statistics Lab, (326-418) Applications of Function Estimation and Lab, (326-214) Sampling Design and Survey Practice, and (033-019) Statistics at Seoul National University
+-->
 
 ## Contact Me
 
