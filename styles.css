@@ -41,6 +41,14 @@ d-article a {
   color: #c894a8; /* change link color */
 }
 
+/*hover: 마우스를 댔을 때 색상 변경*/
+d-article a:hover {
+  border-bottom: 1px solid #c894a8;
+  /*border-bottom: none;
+  /*text-decoration: none;*/
+  /*color: #c894a8; /* change link color */
+}
+
 
 /*
 font color (PCIC)
