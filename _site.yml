@@ -16,6 +16,8 @@ navbar:
       menu:
         - text: "실습페이지"
           href: edu/lab_probedu.html
+        - text: "실습페이지(pdf)"
+          href: edu/lab_probedu_pdfver.pdf
         - text: "Auto.data 자료"
           href: edu/Auto.data
         - text: "TL_SCCO_SIG.shp"
