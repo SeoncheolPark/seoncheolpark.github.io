@@ -15,7 +15,7 @@ navbar:
     - text: "2021 정교사 자격연수"
       menu:
         - text: "실습페이지"
-          href: edu/lab_probedu_html
+          href: edu/lab_probedu.html
         - text: "Auto.data 자료"
           href: edu/Auto.data
         - text: "TL_SCCO_SIG.shp"
