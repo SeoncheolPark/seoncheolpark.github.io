@@ -85,26 +85,32 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 - Stochastic Environmental Research and Risk Assessment
 - Computational Statistics
 - Journal of the Korean Statistical Society
+- Communications for Statistical Applications and Methods
+- Computational Statistics and Data Analysis
 
 ## Teaching Experience
 
 ### Chungbuk National University
 
-- Regression Analysis (2021 Spring)
+#### Undergraduate Level Courses
 
-- Statistical Methodology (2021 Spring)
+- Elementary Probability Theory (2022 Spring)
+
+- Regression Analysis (2021 Spring, 2022 Spring)
 
 - Statistical Simulation (2021 Spring)
-
-<!--
 
 - Insurance Statistics (2021 Fall)
 
 - Financial Statistics (2021 Fall)
 
-- Deep Learning (2021 Fall)
+#### Graduate Level Courses
 
--->
+- Topics in Regression Analysis (2022 Spring)
+
+- Statistical Methodology (2021 Spring)
+
+- Deep Learning (2021 Fall)
 
 <!--
 ### Teaching Assistant
