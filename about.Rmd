@@ -34,6 +34,8 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 (<sup>$*$</sup>: Corresponding author)
 
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022+). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, In press.
+
 1. S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2021+). Prediction of extreme PM2.5 concentrations via extreme quantile regression. *Communications for Statistical Applications and Methods*, Accepted for publication.
 
 1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
@@ -42,9 +44,9 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 1. **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
 
+<!--
 ### Under Review
-
-1. **S. Park** and H-S. Oh<sup>$*$</sup> (2020+). Lifting scheme for streamflow data in river networks.
+-->
 
 ## Presentations
 
