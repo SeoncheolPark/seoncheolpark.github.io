@@ -34,7 +34,7 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 (<sup>$*$</sup>: Corresponding author)
 
-1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022+). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, In press.
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022+). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
 1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
 
