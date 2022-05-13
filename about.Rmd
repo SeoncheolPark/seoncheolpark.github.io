@@ -6,9 +6,23 @@ description: |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+#options(knitr.table.format = "latex")
+options(knitr.table.format = "html")
 ```
 
 ## Seoncheol Park
+
+```{r}
+getRandomNumber <- function() {
+  sample(1:6, 1)
+}
+```
+
+```{asis, echo = getRandomNumber() == 4}
+According to https://xkcd.com/221/, we just generated
+a **true** random number!
+```
 
 Now I am an assistant professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/), under the supervision of Prof. [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
@@ -34,6 +48,10 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 (<sup>$*$</sup>: Corresponding author)
 
+<!--
+1. S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). Prediction of extreme PM2.5 concentrations via extreme quantile regression. *Communications for Statistical Applications and Methods*, **29(3)**, 287--300.
+-->
+
 1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
 1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
@@ -41,6 +59,16 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 1. **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
 
 1. **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+
+<!--
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+
+1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+
+1. **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+
+1. **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+-->
 
 <!--
 ### Under Review
@@ -53,6 +81,7 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ## Presentations
 
+1. Lifting Scheme for Streamflow Data in River Networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 1. Lifting Scheme for Streamflow Data in River Networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
 1. Lifting Scheme for Streamflow Data in River Networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
 1. A New Approach for Modelling the Spatial Extent of Agricultural Drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
