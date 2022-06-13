@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,17 +74,18 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Seoncheol Park: Links</title>
@@ -1029,10 +1031,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 1.5em;
   }
 
-  .figure img {
-    width: 100%;
-  }
-
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1862,7 +1860,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -1873,6 +1880,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1972,6 +2004,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1994,7 +2028,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2033,7 +2067,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2491,145 +2525,313 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h2 id="seoncheol-park">Seoncheol Park</h2>
-<p>Now I am an assistant professor at the <a href="http://stat.chungbuk.ac.kr">Department of Information Statistics</a>, <a href="http://www.cbnu.ac.kr">Chungbuk National University</a>, South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the <a href="https://www.pacificclimate.org/">Pacific Climate Impacts Consortium</a>, under the supervision of Prof. <a href="https://www.pacificclimate.org/about-pcic/people/francis-zwiers">Francis Zwiers</a>. I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. <a href="https://sites.google.com/site/heeseokoh">Hee-Seok Oh</a>. I was also a member of <a href="https://sites.google.com/view/snumultiscale/home">Multiscale Methods in Statistics Lab</a>.</p>
+<p>Now I am an assistant professor at the <a
+href="http://stat.chungbuk.ac.kr">Department of Information
+Statistics</a>, <a href="http://www.cbnu.ac.kr">Chungbuk National
+University</a>, South Korea. Before joining Chungbuk National
+University, I was a post-doctoral research fellow at the <a
+href="https://www.pacificclimate.org/">Pacific Climate Impacts
+Consortium</a>, under the supervision of Prof. <a
+href="https://www.pacificclimate.org/about-pcic/people/francis-zwiers">Francis
+Zwiers</a>. I received my Ph.D. degree in statistics at Seoul National
+University, under the supervision of Prof. <a
+href="https://sites.google.com/site/heeseokoh">Hee-Seok Oh</a>. I was
+also a member of <a
+href="https://sites.google.com/view/snumultiscale/home">Multiscale
+Methods in Statistics Lab</a>.</p>
 <h2 id="journals">Journals</h2>
 <ul>
-<li><p><a href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9868">Journal of the Royal Statistical Society: Series B</a></p></li>
-<li><p><a href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9876">Journal of the Royal Statistical Society: Series C</a></p></li>
-<li><p><a href="http://biomet.oxfordjournals.org/">Biometrika</a></p></li>
-<li><p><a href="http://amstat.tandfonline.com/loi/uasa20">Journal of the American Statistical Association</a></p></li>
-<li><p><a href="https://projecteuclid.org/euclid.aos/">Annals of Statistics</a></p></li>
-<li><p><a href="https://imstat.org/journals-and-publications/annals-of-applied-statistics/">Annals of Applied Statistics</a></p></li>
-<li><p><a href="http://www3.stat.sinica.edu.tw/statistica/">Statistica Sinica</a></p></li>
-<li><p><a href="https://projecteuclid.org/info/euclid.bj">Bernoulli</a></p></li>
-<li><p><a href="http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291099-095X">Environmetrics</a></p></li>
-<li><p><a href="http://amstat.tandfonline.com/toc/utch20/current">Technometrics</a></p></li>
-<li><p><a href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9892">Journal of Time Series Analysis</a></p></li>
-<li><p><a href="http://amstat.tandfonline.com/loi/jcgs">Journal of Computational and Graphical Statistics</a></p></li>
-<li><p><a href="https://projecteuclid.org/all/euclid.ejs">The Electronic Journal of Statistics</a></p></li>
-<li><p><a href="http://www.journals.elsevier.com/journal-of-multivariate-analysis">Journal of Multivariate Statisitcs</a></p></li>
-<li><p><a href="http://link.springer.com/journal/10463">Annals of the Institute of Statistical Mathematics</a></p></li>
-<li><p><a href="http://www.tandfonline.com/loi/cjas20">Journal of Applied Statistics</a></p></li>
-<li><p><a href="https://link.springer.com/journal/13253">Journal of Agricultural, Biological and Environmental Statistics</a></p></li>
-<li><p><a href="https://link.springer.com/journal/10651">Environmental and Ecological Statistics</a></p></li>
-<li><p><a href="http://www.jstatsoft.org">Journal of Statistical Software</a></p></li>
-<li><p><a href="https://journal.r-project.org/">The R Journal</a></p></li>
-<li><p><a href="http://www.journals.elsevier.com/journal-of-the-korean-statistical-society/">Journal of the Korean Statistical Society</a></p></li>
-<li><p><a href="http://link.springer.com/journal/11222">Statistics and Computing</a></p></li>
-<li><p><a href="http://www.journals.elsevier.com/computational-statistics-and-data-analysis/">Computational Statistics &amp; Data Analysis</a></p></li>
-<li><p><a href="http://link.springer.com/journal/180">Computational Statistics</a></p></li>
-<li><p><a href="https://www.journals.elsevier.com/stochastic-processes-and-their-applications">Stochastic Processes and their Applications</a></p></li>
-<li><p><a href="http://www.journals.elsevier.com/applied-and-computational-harmonic-analysis/">Applied and Computational Harmonic Analysis</a></p></li>
-<li><p><a href="http://www.worldscientific.com/worldscinet/ijwmip">International Journal of Wavelets, Multiresolution and Information Processing</a></p></li>
-<li><p><a href="http://epubs.siam.org/journal/mmsubt">Multiscale Modeling &amp; Simulation</a></p></li>
-<li><p><a href="http://link.springer.com/journal/10687">Extremes</a></p></li>
-<li><p><a href="http://www.journals.elsevier.com/spatial-statistics">Spatial Statistics</a></p></li>
-<li><p><a href="http://link.springer.com/journal/477">Stochastic Environmental Research and Risk Assessment</a></p></li>
-<li><p><a href="https://onlinelibrary.wiley.com/journal/17515823">International Statistical Review (Review Journal)</a></p></li>
-<li><p><a href="https://onlinelibrary.wiley.com/journal/19390068">Wiley Interdisciplinary Reviews: Computational Statistics (Review Journal)</a></p></li>
+<li><p><a
+href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9868">Journal
+of the Royal Statistical Society: Series B</a></p></li>
+<li><p><a
+href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9876">Journal
+of the Royal Statistical Society: Series C</a></p></li>
+<li><p><a
+href="http://biomet.oxfordjournals.org/">Biometrika</a></p></li>
+<li><p><a href="http://amstat.tandfonline.com/loi/uasa20">Journal of the
+American Statistical Association</a></p></li>
+<li><p><a href="https://projecteuclid.org/euclid.aos/">Annals of
+Statistics</a></p></li>
+<li><p><a
+href="https://imstat.org/journals-and-publications/annals-of-applied-statistics/">Annals
+of Applied Statistics</a></p></li>
+<li><p><a href="http://www3.stat.sinica.edu.tw/statistica/">Statistica
+Sinica</a></p></li>
+<li><p><a
+href="https://projecteuclid.org/info/euclid.bj">Bernoulli</a></p></li>
+<li><p><a
+href="http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291099-095X">Environmetrics</a></p></li>
+<li><p><a
+href="http://amstat.tandfonline.com/toc/utch20/current">Technometrics</a></p></li>
+<li><p><a
+href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291467-9892">Journal
+of Time Series Analysis</a></p></li>
+<li><p><a href="http://amstat.tandfonline.com/loi/jcgs">Journal of
+Computational and Graphical Statistics</a></p></li>
+<li><p><a href="https://projecteuclid.org/all/euclid.ejs">The Electronic
+Journal of Statistics</a></p></li>
+<li><p><a
+href="http://www.journals.elsevier.com/journal-of-multivariate-analysis">Journal
+of Multivariate Statisitcs</a></p></li>
+<li><p><a href="http://link.springer.com/journal/10463">Annals of the
+Institute of Statistical Mathematics</a></p></li>
+<li><p><a href="http://www.tandfonline.com/loi/cjas20">Journal of
+Applied Statistics</a></p></li>
+<li><p><a href="https://link.springer.com/journal/13253">Journal of
+Agricultural, Biological and Environmental Statistics</a></p></li>
+<li><p><a href="https://link.springer.com/journal/10651">Environmental
+and Ecological Statistics</a></p></li>
+<li><p><a href="http://www.jstatsoft.org">Journal of Statistical
+Software</a></p></li>
+<li><p><a href="https://journal.r-project.org/">The R
+Journal</a></p></li>
+<li><p><a
+href="http://www.journals.elsevier.com/journal-of-the-korean-statistical-society/">Journal
+of the Korean Statistical Society</a></p></li>
+<li><p><a href="http://link.springer.com/journal/11222">Statistics and
+Computing</a></p></li>
+<li><p><a
+href="http://www.journals.elsevier.com/computational-statistics-and-data-analysis/">Computational
+Statistics &amp; Data Analysis</a></p></li>
+<li><p><a href="http://link.springer.com/journal/180">Computational
+Statistics</a></p></li>
+<li><p><a
+href="https://www.journals.elsevier.com/stochastic-processes-and-their-applications">Stochastic
+Processes and their Applications</a></p></li>
+<li><p><a
+href="http://www.journals.elsevier.com/applied-and-computational-harmonic-analysis/">Applied
+and Computational Harmonic Analysis</a></p></li>
+<li><p><a
+href="http://www.worldscientific.com/worldscinet/ijwmip">International
+Journal of Wavelets, Multiresolution and Information
+Processing</a></p></li>
+<li><p><a href="http://epubs.siam.org/journal/mmsubt">Multiscale
+Modeling &amp; Simulation</a></p></li>
+<li><p><a
+href="http://link.springer.com/journal/10687">Extremes</a></p></li>
+<li><p><a
+href="http://www.journals.elsevier.com/spatial-statistics">Spatial
+Statistics</a></p></li>
+<li><p><a href="http://link.springer.com/journal/477">Stochastic
+Environmental Research and Risk Assessment</a></p></li>
+<li><p><a
+href="https://onlinelibrary.wiley.com/journal/17515823">International
+Statistical Review (Review Journal)</a></p></li>
+<li><p><a href="https://onlinelibrary.wiley.com/journal/19390068">Wiley
+Interdisciplinary Reviews: Computational Statistics (Review
+Journal)</a></p></li>
 </ul>
 <h3 id="statisticians">Statisticians</h3>
 <ul>
 <li><p><a href="http://dongikjang.github.io/">Dongik Jang</a></p></li>
-<li><p><a href="https://sites.google.com/site/yaejilim/">Yaeji Lim</a></p></li>
-<li><p><a href="https://leekjstat.wordpress.com">Kyoungjae Lee</a></p></li>
+<li><p><a href="https://sites.google.com/site/yaejilim/">Yaeji
+Lim</a></p></li>
+<li><p><a href="https://leekjstat.wordpress.com">Kyoungjae
+Lee</a></p></li>
 <li><p><a href="https://sdm.unist.ac.kr">Gi-soo Kim</a></p></li>
-<li><p><a href="https://sites.google.com/view/seongohpark/home">Seongoh Park</a></p></li>
+<li><p><a href="https://sites.google.com/view/seongohpark/home">Seongoh
+Park</a></p></li>
 <li><p><a href="https://ykwon0407.github.io/">Yongchan Kwon</a></p></li>
 <li><p><a href="https://jpkimstat.wordpress.com">Junpyo Kim</a></p></li>
-<li><p><a href="https://www.stat.auckland.ac.nz/~yee/">Thomas Yee</a> <a href="https://www.stat.auckland.ac.nz/~yee/updates/">(Information about his papers)</a></p></li>
-<li><p><a href="http://www.lsce.ipsl.fr/Phocea/Pisp/visu.php?id=44&amp;uid=naveau">Philippe Naveau</a></p></li>
-<li><p><a href="https://stsda.kaust.edu.sa/Pages/Home.aspx">Spatio-Temporal Statistics Research Group, KAUST</a></p></li>
-<li><p><a href="https://es.kaust.edu.sa/Pages/Home.aspx">Environmental Statistics Research Group, KAUST</a></p></li>
-<li><p><a href="https://extstat.kaust.edu.sa/Pages/Home.aspx">Extreme Statistics Research Group, KAUST</a></p></li>
-<li><p><a href="http://www.homepages.ucl.ac.uk/~ucakpjn/index.html">Paul Northrop</a></p></li>
-<li><p><a href="http://www.lancs.ac.uk/~jonathan/index.html">Philip Jonathan</a></p></li>
-<li><p><a href="https://informatique-mia.inra.fr/biosp/homepage-denis-allard#Skew">Denis Allard</a></p></li>
-<li><p><a href="http://stats.lse.ac.uk/fryzlewicz/">Piotr Fryzlewicz</a></p></li>
-<li><p><a href="http://www4.stat.ncsu.edu/~reich/">Brian J. Reich</a></p></li>
-<li><p><a href="https://blogs.gwu.edu/judywang/">Huixia Judy Wang</a></p></li>
-<li><p><a href="http://sites.stat.sinica.edu.tw/hchuang/publications/">Hsin-Cheng Huang</a></p></li>
-<li><p><a href="http://homepages.ulb.ac.be/~majansen/">Maarten Jansen</a></p></li>
-<li><p><a href="https://faculty.franklin.uga.edu/cpark/">Cheolwoo Park</a></p></li>
-<li><p><a href="http://www.mas.ncl.ac.uk/~nsc141/">Stefano Castruccio</a></p></li>
-<li><p><a href="http://www.lancaster.ac.uk/~wadswojl/">Jenny Wadsworth, Lancaster University</a></p></li>
-<li><p><a href="http://annakiriliouk.weebly.com">Anna Kiriliouk</a></p></li>
-<li><p><a href="http://leonawicz.github.io/Flammability/index.html">R Project Flammability, Matthew Leonawicz</a></p></li>
-<li><p><a href="http://www.math.univ-montp2.fr/~ribatet/index.html">Mathieu Ribatet (Author of SpatialExtremes)</a></p></li>
-<li><p><a href="https://www.nr.no/~thordis/index.html">Thordis L. Thorarinsdottir</a></p></li>
-<li><p><a href="http://mistis.inrialpes.fr/people/girard/index.html">Stephane Girard</a></p></li>
-<li><p><a href="http://sma.epfl.ch/~lbelzile/index.html">Leo Belzile</a></p></li>
-<li><p><a href="http://faculty.washington.edu/yenchic/">Yen-Chi Chen</a></p></li>
-<li><p><a href="http://freesearch.pe.kr/">Gogamza, R 기반 데이터 시각화 저자</a></p></li>
+<li><p><a href="https://www.stat.auckland.ac.nz/~yee/">Thomas Yee</a> <a
+href="https://www.stat.auckland.ac.nz/~yee/updates/">(Information about
+his papers)</a></p></li>
+<li><p><a
+href="http://www.lsce.ipsl.fr/Phocea/Pisp/visu.php?id=44&amp;uid=naveau">Philippe
+Naveau</a></p></li>
+<li><p><a
+href="https://stsda.kaust.edu.sa/Pages/Home.aspx">Spatio-Temporal
+Statistics Research Group, KAUST</a></p></li>
+<li><p><a href="https://es.kaust.edu.sa/Pages/Home.aspx">Environmental
+Statistics Research Group, KAUST</a></p></li>
+<li><p><a href="https://extstat.kaust.edu.sa/Pages/Home.aspx">Extreme
+Statistics Research Group, KAUST</a></p></li>
+<li><p><a href="http://www.homepages.ucl.ac.uk/~ucakpjn/index.html">Paul
+Northrop</a></p></li>
+<li><p><a href="http://www.lancs.ac.uk/~jonathan/index.html">Philip
+Jonathan</a></p></li>
+<li><p><a
+href="https://informatique-mia.inra.fr/biosp/homepage-denis-allard#Skew">Denis
+Allard</a></p></li>
+<li><p><a href="http://stats.lse.ac.uk/fryzlewicz/">Piotr
+Fryzlewicz</a></p></li>
+<li><p><a href="http://www4.stat.ncsu.edu/~reich/">Brian J.
+Reich</a></p></li>
+<li><p><a href="https://blogs.gwu.edu/judywang/">Huixia Judy
+Wang</a></p></li>
+<li><p><a
+href="http://sites.stat.sinica.edu.tw/hchuang/publications/">Hsin-Cheng
+Huang</a></p></li>
+<li><p><a href="http://homepages.ulb.ac.be/~majansen/">Maarten
+Jansen</a></p></li>
+<li><p><a href="https://faculty.franklin.uga.edu/cpark/">Cheolwoo
+Park</a></p></li>
+<li><p><a href="http://www.mas.ncl.ac.uk/~nsc141/">Stefano
+Castruccio</a></p></li>
+<li><p><a href="http://www.lancaster.ac.uk/~wadswojl/">Jenny Wadsworth,
+Lancaster University</a></p></li>
+<li><p><a href="http://annakiriliouk.weebly.com">Anna
+Kiriliouk</a></p></li>
+<li><p><a href="http://leonawicz.github.io/Flammability/index.html">R
+Project Flammability, Matthew Leonawicz</a></p></li>
+<li><p><a
+href="http://www.math.univ-montp2.fr/~ribatet/index.html">Mathieu
+Ribatet (Author of SpatialExtremes)</a></p></li>
+<li><p><a href="https://www.nr.no/~thordis/index.html">Thordis L.
+Thorarinsdottir</a></p></li>
+<li><p><a
+href="http://mistis.inrialpes.fr/people/girard/index.html">Stephane
+Girard</a></p></li>
+<li><p><a href="http://sma.epfl.ch/~lbelzile/index.html">Leo
+Belzile</a></p></li>
+<li><p><a href="http://faculty.washington.edu/yenchic/">Yen-Chi
+Chen</a></p></li>
+<li><p><a href="http://freesearch.pe.kr/">Gogamza, R 기반 데이터 시각화
+저자</a></p></li>
 <li><p><a href="http://sites.gsu.edu/rluo/">Ruiyan Luo</a></p></li>
-<li><p><a href="http://www1.mate.polimi.it/~sangalli/index.html">Laura Maria Sangalli</a></p></li>
-<li><p><a href="https://www.unich.it/ugov/person/1200">Marco Di Marzio</a></p></li>
-<li><p><a href="https://marcogeraci.wordpress.com/software/">Marco Geraci (<code>lqmm</code> package)</a></p></li>
+<li><p><a href="http://www1.mate.polimi.it/~sangalli/index.html">Laura
+Maria Sangalli</a></p></li>
+<li><p><a href="https://www.unich.it/ugov/person/1200">Marco Di
+Marzio</a></p></li>
+<li><p><a href="https://marcogeraci.wordpress.com/software/">Marco
+Geraci (<code>lqmm</code> package)</a></p></li>
 </ul>
 <h2 id="useful-sites">Useful Sites</h2>
 <ul>
-<li><p><a href="https://seeing-theory.brown.edu">Seeing Theory</a></p></li>
-<li><p><a href="http://bulletin.imstat.org">IMS Bulletin Online</a></p></li>
-<li><p><a href="https://www.statmos.washington.edu/">Statistical Methods for Atmospheric &amp; Oceanic Sciences (STATMOS)</a></p></li>
-<li><p><a href="http://www.environmetrics.org">The International Environmetrics Society (TIES)</a></p></li>
-<li><p><a href="http://www.spatialstatistics.info">The Spatial Statistics Society</a></p></li>
-<li><p><a href="http://www.birs.ca/videos/subject/62">BIRS Workshop Lecture Videos</a></p></li>
-<li><p><a href="https://homepages.uc.edu/~wangyz/misc/2016Workshop/index.html">Workshop on Dependence, Stability, and Extremes</a></p></li>
-<li><p><a href="http://www.cces.ethz.ch/projects/hazri/EXTREMES">Spatial Extremes and Environmental Sustainability: Statistical Methods and Applications in Geophysics and the Environment</a></p></li>
-<li><p><a href="https://www.newton.ac.uk/science/programmes">Videos, Isaac Newton Institute for Mathematical Sciences</a></p></li>
-<li><p><a href="https://onlinecourses.science.psu.edu/statprogram/programs">Graduate Online Course, Penn State</a></p></li>
-<li><p><a href="https://lstat.kuleuven.be/jobs">PhD and postdoc position offers, LU Leuven</a></p></li>
+<li><p><a href="https://seeing-theory.brown.edu">Seeing
+Theory</a></p></li>
+<li><p><a href="http://bulletin.imstat.org">IMS Bulletin
+Online</a></p></li>
+<li><p><a href="https://www.statmos.washington.edu/">Statistical Methods
+for Atmospheric &amp; Oceanic Sciences (STATMOS)</a></p></li>
+<li><p><a href="http://www.environmetrics.org">The International
+Environmetrics Society (TIES)</a></p></li>
+<li><p><a href="http://www.spatialstatistics.info">The Spatial
+Statistics Society</a></p></li>
+<li><p><a href="http://www.birs.ca/videos/subject/62">BIRS Workshop
+Lecture Videos</a></p></li>
+<li><p><a
+href="https://homepages.uc.edu/~wangyz/misc/2016Workshop/index.html">Workshop
+on Dependence, Stability, and Extremes</a></p></li>
+<li><p><a href="http://www.cces.ethz.ch/projects/hazri/EXTREMES">Spatial
+Extremes and Environmental Sustainability: Statistical Methods and
+Applications in Geophysics and the Environment</a></p></li>
+<li><p><a href="https://www.newton.ac.uk/science/programmes">Videos,
+Isaac Newton Institute for Mathematical Sciences</a></p></li>
+<li><p><a
+href="https://onlinecourses.science.psu.edu/statprogram/programs">Graduate
+Online Course, Penn State</a></p></li>
+<li><p><a href="https://lstat.kuleuven.be/jobs">PhD and postdoc position
+offers, LU Leuven</a></p></li>
 <li><p><a href="https://www.kaggle.com">Kaggle</a></p></li>
 <li><p><a href="https://dacon.io">DACON</a></p></li>
 <li><p><a href="http://r-spatial.org/">r-spatial</a></p></li>
-<li><p><a href="http://www1.secam.ex.ac.uk/r-packages.dhtml">Links of Existing Packages for use in Climate Analysis, University of Exeter</a></p></li>
-<li><p><a href="http://www.assessment.ucar.edu/toolkit/">Extreme Value Analysis Software, The Weather and Climate Impact Assesment Science Program</a></p></li>
-<li><p><a href="http://abouthydrology.blogspot.kr/2012/08/r-resources-for-hydrologists.html">R Resources for Hydrologists</a></p></li>
-<li><p><a href="http://www.isse.ucar.edu/extremevalues/software.html">Statistics of Weather and Climate Extremes</a></p></li>
-<li><p><a href="https://bigdata.seoul.go.kr/main.do">서울특별시 빅데이터 캠퍼스</a></p></li>
-<li><p><a href="http://krsc.polar.re.kr/main.html">극지원격탐사센터</a></p></li>
+<li><p><a href="http://www1.secam.ex.ac.uk/r-packages.dhtml">Links of
+Existing Packages for use in Climate Analysis, University of
+Exeter</a></p></li>
+<li><p><a href="http://www.assessment.ucar.edu/toolkit/">Extreme Value
+Analysis Software, The Weather and Climate Impact Assesment Science
+Program</a></p></li>
+<li><p><a
+href="http://abouthydrology.blogspot.kr/2012/08/r-resources-for-hydrologists.html">R
+Resources for Hydrologists</a></p></li>
+<li><p><a
+href="http://www.isse.ucar.edu/extremevalues/software.html">Statistics
+of Weather and Climate Extremes</a></p></li>
+<li><p><a href="https://bigdata.seoul.go.kr/main.do">서울특별시 빅데이터
+캠퍼스</a></p></li>
+<li><p><a
+href="http://krsc.polar.re.kr/main.html">극지원격탐사센터</a></p></li>
 </ul>
 <h2 id="data">Data</h2>
 <ul>
-<li><p><a href="http://www.ncdc.noaa.gov/">National Climatic Data Center - NOAA</a></p></li>
-<li><p><a href="https://www.cmascenter.org/cmaq/">Community Modeling and Analysis (CMAS) - CMAQ</a></p></li>
-<li><p><a href="http://sts.kma.go.kr/jsp/home/contents/main/main.do">National Climate Data Service System (NCDSS, 기상청 국가기후데이터센터)</a></p></li>
-<li><p><a href="http://www.esrl.noaa.gov/psd/products/analysis/">PSD Web Products and Tools, NOAA</a></p></li>
-<li><p><a href="http://saber.gats-inc.com/index.php">The Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)</a></p></li>
-<li><p><a href="http://www.esrl.noaa.gov/psd/data/climateindices/list/">Climate Indices: Monthly Atmospheric and Ocean Time Series, NOAA</a></p></li>
-<li><p><a href="http://www.ncdc.noaa.gov/temp-and-precip/ghcn-gridded-products/">GHCN Gridded Products, NOAA</a></p></li>
-<li><p><a href="http://disc.sci.gsfc.nasa.gov">Goddard Earth Sciences Data and Information Services Centerm NASA</a></p></li>
-<li><p><a href="http://exoplanetarchive.ipac.caltech.edu/docs/data.html">NASA Exoplanet Archive</a></p></li>
-<li><p><a href="https://www.data.gov/geospatial/">Geospatial-Data.gov</a></p></li>
-<li><p><a href="http://gisdata.piercecowa.opendata.arcgis.com">Pierce County Open GeoSpatial Data Portal</a></p></li>
-<li><p><a href="https://gisdata.mn.gov/organization/us-mn-state-metrogis">Minnesota Geospatial Commons</a></p></li>
-<li><p><a href="https://github.com/oscarperpinan/mds/wiki">Meteorological Data Sources, Oscar Perpiñán Lamigueiro</a></p></li>
+<li><p><a href="http://www.ncdc.noaa.gov/">National Climatic Data Center
+- NOAA</a></p></li>
+<li><p><a href="https://www.cmascenter.org/cmaq/">Community Modeling and
+Analysis (CMAS) - CMAQ</a></p></li>
+<li><p><a
+href="http://sts.kma.go.kr/jsp/home/contents/main/main.do">National
+Climate Data Service System (NCDSS, 기상청
+국가기후데이터센터)</a></p></li>
+<li><p><a href="http://www.esrl.noaa.gov/psd/products/analysis/">PSD Web
+Products and Tools, NOAA</a></p></li>
+<li><p><a href="http://saber.gats-inc.com/index.php">The Sounding of the
+Atmosphere using Broadband Emission Radiometry (SABER)</a></p></li>
+<li><p><a
+href="http://www.esrl.noaa.gov/psd/data/climateindices/list/">Climate
+Indices: Monthly Atmospheric and Ocean Time Series, NOAA</a></p></li>
+<li><p><a
+href="http://www.ncdc.noaa.gov/temp-and-precip/ghcn-gridded-products/">GHCN
+Gridded Products, NOAA</a></p></li>
+<li><p><a href="http://disc.sci.gsfc.nasa.gov">Goddard Earth Sciences
+Data and Information Services Centerm NASA</a></p></li>
+<li><p><a
+href="http://exoplanetarchive.ipac.caltech.edu/docs/data.html">NASA
+Exoplanet Archive</a></p></li>
+<li><p><a
+href="https://www.data.gov/geospatial/">Geospatial-Data.gov</a></p></li>
+<li><p><a href="http://gisdata.piercecowa.opendata.arcgis.com">Pierce
+County Open GeoSpatial Data Portal</a></p></li>
+<li><p><a
+href="https://gisdata.mn.gov/organization/us-mn-state-metrogis">Minnesota
+Geospatial Commons</a></p></li>
+<li><p><a
+href="https://github.com/oscarperpinan/mds/wiki">Meteorological Data
+Sources, Oscar Perpiñán Lamigueiro</a></p></li>
 <li><p><a href="http://berkeleyearth.org/">Berkeley Earth</a></p></li>
 <li><p><a href="https://datausa.io">Data USA</a></p></li>
-<li><p><a href="https://github.com/caesar0301/awesome-public-datasets">Awesome Public Datasets</a></p></li>
-<li><p><a href="http://lib.stat.cmu.edu/DASL/">The Data and Story Library</a></p></li>
-<li><p><a href="http://wetlandinfo.ehp.qld.gov.au/wetlands/">Queensland governments Wetlands Information (for maps)</a></p></li>
-<li><p><a href="http://www.nij.gov/topics/technology/maps/pages/crimestat.aspx">CrimeStat</a></p></li>
-<li><p><a href="https://nrfa.ceh.ac.uk/data/search">National River Flow Archive (Great Britain)</a></p></li>
-<li><p><a href="http://canopex.etsmtl.net">CANOPEX database contains data(캐나다 수자원 자료)</a></p></li>
-<li><p><a href="http://data.seoul.go.kr/">Seoul Open Data Plaza (서울 열린 데이터 광장)</a></p></li>
-<li><p><a href="https://www.data.go.kr">Korea Public Data Portal (공공데이터포털)</a></p></li>
-<li><p><a href="https://kbig.kr/?q=data_library/data_library_list">K-ICT 빅데이터센터</a></p></li>
-<li><p><a href="https://www.airkorea.or.kr/">Air Korea (에어코리아)</a></p></li>
-<li><p><a href="http://kpdc.kopri.re.kr/">Korea Polar Data Center (한국 극지 데이터 센터)</a></p></li>
-<li><p><a href="http://data.ex.co.kr">한국도로공사 고속도로 공공데이터 포털</a></p></li>
-<li><p><a href="http://www.nsdi.go.kr/?menuno=2679">국가공간정보포털</a></p></li>
-<li><p><a href="https://data.kihasa.re.kr/index.jsp">보건복지데이터포털</a></p></li>
-<li><p><a href="https://data.kma.go.kr/cmmn/main.do">기상자료 개방포털</a></p></li>
-<li><p><a href="http://www.hrfco.go.kr/main.do">한강 홍수통제소</a></p></li>
-<li><p><a href="http://www.nakdongriver.go.kr/html/hydro/realTime_2_1.jsp">낙동강 홍수통제소</a></p></li>
-<li><p><a href="http://water.nier.go.kr/publicMain/mainContent.do">물환경정보시스템</a></p></li>
-<li><p><a href="http://tmdlms.nier.go.kr/Intro.do?">수질총량정보시스템</a></p></li>
-<li><p><a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">TLC Trip Record Data</a></p></li>
-<li><p><a href="https://www.bigdata-forest.kr">산림빅데이터 거래소</a></p></li>
-<li><p><a href="https://www.bigdata-environment.kr/user/main.do">환경빅데이터 플랫폼</a></p></li>
+<li><p><a
+href="https://github.com/caesar0301/awesome-public-datasets">Awesome
+Public Datasets</a></p></li>
+<li><p><a href="http://lib.stat.cmu.edu/DASL/">The Data and Story
+Library</a></p></li>
+<li><p><a href="http://wetlandinfo.ehp.qld.gov.au/wetlands/">Queensland
+governments Wetlands Information (for maps)</a></p></li>
+<li><p><a
+href="http://www.nij.gov/topics/technology/maps/pages/crimestat.aspx">CrimeStat</a></p></li>
+<li><p><a href="https://nrfa.ceh.ac.uk/data/search">National River Flow
+Archive (Great Britain)</a></p></li>
+<li><p><a href="http://canopex.etsmtl.net">CANOPEX database contains
+data(캐나다 수자원 자료)</a></p></li>
+<li><p><a href="http://data.seoul.go.kr/">Seoul Open Data Plaza (서울
+열린 데이터 광장)</a></p></li>
+<li><p><a href="https://www.data.go.kr">Korea Public Data Portal
+(공공데이터포털)</a></p></li>
+<li><p><a href="https://kbig.kr/?q=data_library/data_library_list">K-ICT
+빅데이터센터</a></p></li>
+<li><p><a href="https://www.airkorea.or.kr/">Air Korea
+(에어코리아)</a></p></li>
+<li><p><a href="http://kpdc.kopri.re.kr/">Korea Polar Data Center (한국
+극지 데이터 센터)</a></p></li>
+<li><p><a href="http://data.ex.co.kr">한국도로공사 고속도로 공공데이터
+포털</a></p></li>
+<li><p><a
+href="http://www.nsdi.go.kr/?menuno=2679">국가공간정보포털</a></p></li>
+<li><p><a
+href="https://data.kihasa.re.kr/index.jsp">보건복지데이터포털</a></p></li>
+<li><p><a href="https://data.kma.go.kr/cmmn/main.do">기상자료
+개방포털</a></p></li>
+<li><p><a href="http://www.hrfco.go.kr/main.do">한강
+홍수통제소</a></p></li>
+<li><p><a
+href="http://www.nakdongriver.go.kr/html/hydro/realTime_2_1.jsp">낙동강
+홍수통제소</a></p></li>
+<li><p><a
+href="http://water.nier.go.kr/publicMain/mainContent.do">물환경정보시스템</a></p></li>
+<li><p><a
+href="http://tmdlms.nier.go.kr/Intro.do?">수질총량정보시스템</a></p></li>
+<li><p><a
+href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">TLC
+Trip Record Data</a></p></li>
+<li><p><a href="https://www.bigdata-forest.kr">산림빅데이터
+거래소</a></p></li>
+<li><p><a
+href="https://www.bigdata-environment.kr/user/main.do">환경빅데이터
+플랫폼</a></p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2645,8 +2847,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>© Copyright <script>document.write(new Date().getFullYear())</script> Seoncheol Park, powered by <a href="https://rstudio.github.io/distill/">Distill for R Markdown</a></p>
-<p>Software licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, v2.0</a>.</p>
+<p>© Copyright <script>document.write(new Date().getFullYear())</script>
+Seoncheol Park, powered by <a
+href="https://rstudio.github.io/distill/">Distill for R Markdown</a></p>
+<p>Software licensed under the <a
+href="https://www.apache.org/licenses/LICENSE-2.0">Apache License,
+v2.0</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

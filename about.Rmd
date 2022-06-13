@@ -48,9 +48,7 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 (<sup>$*$</sup>: Corresponding author)
 
-<!--
-1. S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). Prediction of extreme PM2.5 concentrations via extreme quantile regression. *Communications for Statistical Applications and Methods*, **29(3)**, 287--300.
--->
+1. S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](http://www.csam.or.kr/journal/view.html?uid=1993&&vmd=Full) *Communications for Statistical Applications and Methods*, **29(3)**, 287--300.
 
 1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
