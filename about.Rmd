@@ -13,6 +13,7 @@ options(knitr.table.format = "html")
 
 ## Seoncheol Park
 
+<!--
 ```{r}
 getRandomNumber <- function() {
   sample(1:6, 1)
@@ -23,6 +24,7 @@ getRandomNumber <- function() {
 According to https://xkcd.com/221/, we just generated
 a **true** random number!
 ```
+-->
 
 Now I am an assistant professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/), under the supervision of Prof. [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
@@ -136,11 +138,17 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 - Financial Statistics (2021 Fall)
 
+- Financial and Insurance Statistics (2022 Fall)
+
+- Spatial Statistics (2022 Fall)
+
 #### Graduate Level Courses
 
 - Topics in Regression Analysis (2022 Spring)
 
 - Statistical Methodology (2021 Spring)
+
+- Machine Learning Methodology (2022 Fall)
 
 - Deep Learning (2021 Fall)
 
