@@ -6,6 +6,8 @@ website:
   title: "Seoncheol Park"
   site-url: https://seoncheolpark.github.io
   navbar:
+    collapse: true
+    collapse-below: sm
     logo: images/01.svg
     href: http://stat.chungbuk.ac.kr
     background: primary
