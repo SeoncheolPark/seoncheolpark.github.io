@@ -19,8 +19,6 @@ website:
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
-      - icon: house-door-fill
-        href: https://seoncheolpark.github.io
   page-footer: "Copyright 2022, Seoncheol Park"
 format:
   html:
