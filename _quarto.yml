@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Seoncheol Park"
+  site-url: https://seoncheolpark.github.io
+  navbar:
+    logo: images/01.svg
+    href: http://stat.chungbuk.ac.kr
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right: 
+      - icon: github
+        href: https://github.com/SeoncheolPark
+      - icon: house-door-fill
+        href: https://seoncheolpark.github.io
+  page-footer: "Copyright 2022, Seoncheol Park"
+format:
+  html:
+    theme: 
+      light: [minty, theme.scss]
+      dark: [minty, theme-dark.scss]
+    fontsize: 1.1em
+    linestretch: 1.7
+    css: styles.css
+    toc: true
+
+editor: visual
+
