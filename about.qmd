@@ -94,13 +94,17 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 ```
 ## Presentations
 
-1.  Lifting Scheme for Streamflow Data in River Networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
+<!--
+1. Spatial statistical models for environmental data in Korea, *JSS-KSS-CIPS Joint Meeting, Tokyo, Japan, September 2022.
+-->
 
-2.  Lifting Scheme for Streamflow Data in River Networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
+1.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 
-3.  Lifting Scheme for Streamflow Data in River Networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
+2.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
 
-4.  A New Approach for Modelling the Spatial Extent of Agricultural Drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
+3.  Lifting scheme for streamflow data in river networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
+
+4.  A new approach for modelling the spatial extent of agricultural drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
 
 5.  Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
 
