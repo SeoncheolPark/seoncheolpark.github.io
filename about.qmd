@@ -53,7 +53,7 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 (<sup>$*$</sup>: Corresponding author)
 
-1.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park<sup>$*$</sup> (2022+). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, Accepted for publication.
+1.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park<sup>$*$</sup> (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
 2.  S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
 
