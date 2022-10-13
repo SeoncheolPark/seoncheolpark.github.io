@@ -139,6 +139,8 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ## Referee
 
+-   Annals of Applied Statistics
+
 -   Journal of Agricultural, Biological and Environmental Statistics
 
 -   Extremes
