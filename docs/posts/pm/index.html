@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Seoncheol Park">
+<meta name="dcterms.date" content="2021-03-01">
 
-<title>Seoncheol Park</title>
+<title>Seoncheol Park - 고농도 미세먼지 분석</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,24 +20,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,8 +58,9 @@ ul.task-list{list-style: none;}
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -66,8 +69,8 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/01.svg" alt="">
+      <a class="navbar-brand" href="../../index.html">
+    <img src="../../images/01.svg" alt="">
     <span class="navbar-title">Seoncheol Park</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -76,13 +79,13 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="../../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="../../about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html">Projects</a>
+    <a class="nav-link" href="../../projects.html">Projects</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -105,31 +108,105 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#연구-배경" id="toc-연구-배경" class="nav-link active" data-scroll-target="#연구-배경">연구 배경</a></li>
+  <li><a href="#연구-목표" id="toc-연구-목표" class="nav-link" data-scroll-target="#연구-목표">연구 목표</a>
+  <ul class="collapse">
+  <li><a href="#미세먼지-예측" id="toc-미세먼지-예측" class="nav-link" data-scroll-target="#미세먼지-예측">미세먼지 예측</a></li>
+  <li><a href="#미세먼지-자료-응용" id="toc-미세먼지-자료-응용" class="nav-link" data-scroll-target="#미세먼지-자료-응용">미세먼지 자료 응용</a></li>
+  </ul></li>
+  <li><a href="#연구과제" id="toc-연구과제" class="nav-link" data-scroll-target="#연구과제">연구과제</a></li>
+  <li><a href="#학술발표" id="toc-학술발표" class="nav-link" data-scroll-target="#학술발표">학술발표</a></li>
+  <li><a href="#논문" id="toc-논문" class="nav-link" data-scroll-target="#논문">논문</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Seoncheol Park</h1>
-</div>
+<h1 class="title">고농도 미세먼지 분석</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ongoing</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Seoncheol Park </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2021</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p><img src="images/Park.jpg" class="img-fluid" style="width:20.0%"></p>
-<p>Hello, I am Seoncheol Park. Now I am an assistant professor at the <a href="http://stat.chungbuk.ac.kr">Department of Information Statistics</a>, <a href="http://www.cbnu.ac.kr">Chungbuk National University</a>, South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the <a href="https://www.pacificclimate.org/">Pacific Climate Impacts Consortium</a>, under the supervision of Prof.&nbsp;<a href="https://www.pacificclimate.org/about-pcic/people/francis-zwiers">Francis Zwiers</a>. I received my Ph.D.&nbsp;degree in statistics at Seoul National University, under the supervision of Prof.&nbsp;<a href="https://sites.google.com/site/heeseokoh">Hee-Seok Oh</a>. I was also a member of <a href="https://sites.google.com/view/snumultiscale/home">Multiscale Methods in Statistics Lab</a>.</p>
+<!--
+past, ongoing, forthcoming
+-->
+<section id="연구-배경" class="level1">
+<h1>연구 배경</h1>
+<ul>
+<li><p>대한민국 국민들의 미세먼지에 대한 관심은 증가했지만, 이에 미치지 못하는 <a href="https://www.news1.kr/articles/?3123091">부족한 예측력</a>으로 인해 시민들에게 올바른 예측 정보가 제공되지 않음</p></li>
+<li><p>지난 10여년 간 관측된 미세먼지 데이터를 바탕으로, 고농도 미세먼지 예측에 초점을 맞춰 보다 예측력이 우수한 알고리즘을 개발하고, 고농도 미세먼지 발생현상의 패턴을 이해하고자 함</p></li>
+</ul>
+</section>
+<section id="연구-목표" class="level1">
+<h1>연구 목표</h1>
+<section id="미세먼지-예측" class="level2">
+<h2 class="anchored" data-anchor-id="미세먼지-예측">미세먼지 예측</h2>
+<ul>
+<li><p>Quantile-Quantile mapping을 통한 서울 고농도 극단 미세먼지 예측</p></li>
+<li><p><a href="https://seoncheolpark.shinyapps.io/PM10M/?_ga=2.32953598.1350284873.1665991750-972405968.1665991750">조건부 극단값 모형을 대한민국 미세먼지 자료에 응용</a></p></li>
+</ul>
+</section>
+<section id="미세먼지-자료-응용" class="level2">
+<h2 class="anchored" data-anchor-id="미세먼지-자료-응용">미세먼지 자료 응용</h2>
+<ul>
+<li><p>COVID-19가 20대 및 30대의 등산 패턴을 어떻게 바꿨는지 미세먼지를 포함한 관련 기상변수들과 함께 일반화 가법모형을 통한 관계 분석</p></li>
+<li><p>미세먼지를 포함한 날씨에 따른 산행 패턴 분석</p></li>
+</ul>
+</section>
+</section>
+<section id="연구과제" class="level1">
+<h1>연구과제</h1>
+<ul>
+<li><p><strong>극단 미세먼지 현상의 조건부 공간 모델링</strong>, 한국연구재단 기본연구, June 2021 ~</p></li>
+<li><p><strong>관광기업 가명정보결합 시범사업</strong> (<a href="https://kakaovx.com/">카카오VX</a>와 함께 참여), 한국관광공사, July 2022 ~</p></li>
+</ul>
+</section>
+<section id="학술발표" class="level1">
+<h1>학술발표</h1>
+<ol type="1">
+<li><strong>J. Lee</strong> and <strong>S. Park</strong>. <a href="http://www.kss.or.kr/bbs/board.php?bo_table=notice&amp;wr_id=1499">Prediction of Sharp Change of Particulate Matter in Seoul via Quantile Mapping</a>, <em>한국통계학회 2022 하계학술대회</em>, 서울대학교, 대한민국, June 2022.</li>
+</ol>
+</section>
+<section id="논문" class="level1">
+<h1>논문</h1>
+<ol type="1">
+<li><p>S. Lee, <strong>S. Park</strong> and Y. Lim<sup><span class="math inline">\(*\)</span></sup> (2022). <a href="https://doi.org/10.29220/CSAM.2022.29.3.319">Prediction of extreme PM2.5 concentrations via extreme quantile regression.</a> <em>Communications for Statistical Applications and Methods</em>, <strong>29(3)</strong>, 319–331.</p></li>
+<li><p><strong>S. Park</strong> and H-S. Oh<sup><span class="math inline">\(*\)</span></sup> (2017). <a href="http://dx.doi.org/10.1007/s00477-016-1376-6">Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.</a> <em>Stochastic Environmental Research and Risk Assessment</em>, <strong>31(9)</strong>, 2401–2414.</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

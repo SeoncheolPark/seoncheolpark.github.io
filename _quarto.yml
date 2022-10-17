@@ -16,6 +16,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark

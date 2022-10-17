@@ -1,0 +1,74 @@
+---
+title: "연구실 소개: 환경통계 연구실"
+author: "Seoncheol Park"
+date: "2021-03-01"
+categories: [news]
+draft: false
+---
+
+```{=html}
+<!--
+past, ongoing, forthcoming
+-->
+```
+
+# 개요: 환경통계 연구실
+
+- 본 연구실에서는 미세먼지, 물환경, 기상자료, 산림자료, 해양자료 등 우리 주변에서 볼 수 있는 환경 및 공간자료를 분석할 수 있는 새로운 통계방법론을 제안하여 논문의 형태로 발표하는 것을 목표로 함
+
+# 구성원
+
+- [박선철](https://seoncheolpark.github.io): 지도교수
+
+- 이보배: 석사 1년차
+
+- 이정은: 학석사연계과정
+
+# 연구환경
+
+- 연구실: S1-5동 117호
+
+- 매년 적어도 1개 이상의 연구과제에 참여, 이로 인해 얻는 학생인건비로 학생들에게 매달 일정 금액을 지급
+
+- 연구과제로부터 얻는 연구비로 연구용 컴퓨터, 의자 등 연구에 필요한 기자재와 학회등록비, 출장비 등 지급
+
+- 주 1회 정도 지도교수와 면담을 통해 일주일 간의 연구 진행 및 성과 공유
+
+# 연구 키워드
+
+## 데이터
+
+- [미세먼지](https://www.airkorea.or.kr/web/)
+
+- [물환경](https://water.nier.go.kr/web)
+
+- [극단 강수량](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do?pgmNo=36)
+
+- [해양열파](https://www.sciencetimes.co.kr/news/해양-열파로-바다-생태계가-소멸되고-있다/)
+
+- [가뭄인덱스](https://hydro.kma.go.kr/droughtFcst/obsAdmAll.do)
+
+- [등산GPS](https://www.data.go.kr/data/15098177/fileData.do)
+
+## 분석 방법
+
+- 데이터마이닝: [랜덤 포레스트](https://link.springer.com/article/10.1007/s10687-018-0323-y)
+
+- 다중척도방법: [웨이블릿](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542)
+
+- 다변량분석: [요인분석](https://link.springer.com/article/10.1007/s10687-020-00404-0)
+
+- 회귀분석: [분위수 회귀분석]((https://doi.org/10.29220/CSAM.2022.29.3.319))
+
+- 극단값이론: [GEV 분포]((http://dx.doi.org/10.1007/s00477-016-1376-6))
+
+# 연구실 장단점?
+
+# 졸업 후 진로
+
+- 연구실 졸업생이 아직 없음
+
+# 컨택
+
+- 연구실에 대해 관심이 있는 학생들은 S1-5동 111호 (교수연구실) 또는 S1-5동 117호에 방문 또는 지도교수 이메일(pscstat@chungbuk.ac.kr)로 연락 바람
+

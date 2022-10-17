@@ -93,27 +93,27 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 ```
 ## Presentations
 
-1. Spatial statistical models for environmental data in Korea, *Japanese Joint Statistical Meeting 2022*, Tokyo, Japan, September 2022.
+1.  Spatial statistical models for environmental data in Korea, *Japanese Joint Statistical Meeting 2022*, Tokyo, Japan, September 2022.
 
-1.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
+2.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 
-2.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
+3.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
 
-3.  Lifting scheme for streamflow data in river networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
+4.  Lifting scheme for streamflow data in river networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
 
-4.  A new approach for modelling the spatial extent of agricultural drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
+5.  A new approach for modelling the spatial extent of agricultural drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
 
-5.  Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
+6.  Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
 
-6.  [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10th Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
+7.  [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10th Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
 
-7.  Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
+8.  Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
 
-8.  Multiscale modeling for particulate matter extremes. *2015 The Korean Statistical Society Autumn Conference*, Yongin, Korea, November 2015.
+9.  Multiscale modeling for particulate matter extremes. *2015 The Korean Statistical Society Autumn Conference*, Yongin, Korea, November 2015.
 
-9.  [Multiscale modeling for particulate matter extremes in Seoul](http://data.si.re.kr/node/623). *The Seoul Institute Research Competition 2015*, Seoul, Korea, November 2015.
+10. [Multiscale modeling for particulate matter extremes in Seoul](http://data.si.re.kr/node/623). *The Seoul Institute Research Competition 2015*, Seoul, Korea, November 2015.
 
-10. Prediction of extreme particulate matter : the use of quantile regression forests. *2014 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2014.
+11. Prediction of extreme particulate matter : the use of quantile regression forests. *2014 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2014.
 
 ## Awards
 

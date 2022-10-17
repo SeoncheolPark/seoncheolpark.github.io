@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Seoncheol Park</title>
+<title>Seoncheol Park - Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -55,7 +57,37 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -76,13 +108,13 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html">Projects</a>
+    <a class="nav-link active" href="./projects.html" aria-current="page">Projects</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -101,18 +133,18 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ongoing">ongoing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Seoncheol Park</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -126,12 +158,57 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p><img src="images/Park.jpg" class="img-fluid" style="width:20.0%"></p>
-<p>Hello, I am Seoncheol Park. Now I am an assistant professor at the <a href="http://stat.chungbuk.ac.kr">Department of Information Statistics</a>, <a href="http://www.cbnu.ac.kr">Chungbuk National University</a>, South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the <a href="https://www.pacificclimate.org/">Pacific Climate Impacts Consortium</a>, under the supervision of Prof.&nbsp;<a href="https://www.pacificclimate.org/about-pcic/people/francis-zwiers">Francis Zwiers</a>. I received my Ph.D.&nbsp;degree in statistics at Seoul National University, under the supervision of Prof.&nbsp;<a href="https://sites.google.com/site/heeseokoh">Hee-Seok Oh</a>. I was also a member of <a href="https://sites.google.com/view/snumultiscale/home">Multiscale Methods in Statistics Lab</a>.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="ongoing" data-listing-date-sort="1614524400000" data-listing-file-modified-sort="1665992072663" data-listing-reading-time-sort="0.97">
+<div class="thumbnail">
+<p><a href="./posts/pm/index.html"> <img src="./posts/pm/arbitraryTime.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/pm/index.html">
+<h3 class="no-anchor listing-title">
+고농도 미세먼지 분석
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/pm/index.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1614524400000" data-listing-file-modified-sort="1665990784624" data-listing-reading-time-sort="0.685">
+<div class="thumbnail">
+<a href="./posts/intro/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/intro/index.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/intro/index.html">
+<h3 class="no-anchor listing-title">
+연구실 소개: 환경통계 연구실
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/intro/index.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

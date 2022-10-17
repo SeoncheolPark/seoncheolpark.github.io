@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://seoncheolpark.github.io/posts/pm/index.html</loc>
+    <lastmod>2022-10-17T07:34:34.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://seoncheolpark.github.io/posts/intro/index.html</loc>
+    <lastmod>2022-10-17T07:34:35.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://seoncheolpark.github.io/projects.html</loc>
+    <lastmod>2022-10-17T07:34:36.246Z</lastmod>
+  </url>
+  <url>
     <loc>https://seoncheolpark.github.io/index.html</loc>
-    <lastmod>2022-10-13T01:49:33.160Z</lastmod>
+    <lastmod>2022-10-17T07:34:37.163Z</lastmod>
   </url>
   <url>
     <loc>https://seoncheolpark.github.io/about.html</loc>
-    <lastmod>2022-10-13T01:49:34.389Z</lastmod>
+    <lastmod>2022-10-17T07:34:38.154Z</lastmod>
   </url>
 </urlset>
