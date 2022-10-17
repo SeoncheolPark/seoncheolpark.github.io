@@ -41,7 +41,7 @@ past, ongoing, forthcoming
 
 # 학술발표
 
-1.  **J. Lee** and **S. Park**. [Prediction of Sharp Change of Particulate Matter in Seoul via Quantile Mapping](http://www.kss.or.kr/bbs/board.php?bo_table=notice&wr_id=1499), *한국통계학회 2022 하계학술대회*, 서울대학교, 대한민국, June 2022.
+1.  **J. Lee** and **S. Park**. [Prediction of Sharp Change of Particulate Matter in Seoul via Quantile Mapping](http://www.kss.or.kr/bbs/board.php?bo_table=notice&wr_id=1499), *2022 한국통계학회 하계학술대회*, 서울대학교, 대한민국, June 2022.
 
 
 # 논문
