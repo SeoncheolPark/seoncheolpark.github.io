@@ -51,29 +51,31 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ### International Journal Papers
 
-(<sup>$*$</sup>: Corresponding author)
+(${}^\ast$: Corresponding author, and ${}^\dagger$: Students I supervised)
 
-1.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park<sup>$*$</sup> (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
+1. B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
-2.  S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
+2.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
-3.  **S. Park** and H-S. Oh<sup>$*$</sup> (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
+3.  S. Lee, **S. Park** and Y. Lim${}^\ast$ (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
 
-4.  J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
+4.  **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
-5.  **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+5.  J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
 
-6.  **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+6.  **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+
+7.  **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
 
 ```{=html}
 <!--
-1. **S. Park** and H-S. Oh<sup>$*$</sup> (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+1. **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
 
-1. J. Kim, **S. Park**<sup>$*$</sup>, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+1. J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
 
-1. **S. Park**<sup>$*$</sup>, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+1. **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
 
-1. **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
+1. **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414. `r text_spec("SCIE", background = "#990000", color = "#c894a8", bold = T)` `r text_spec("STAT-PROB", background = "#990000", color = "#c894a8", bold = T)`
 -->
 ```
 ```{=html}
@@ -83,12 +85,12 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 ```
 ```{=html}
 <!--
-1. S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2021+). Prediction of extreme PM2.5 concentrations via extreme quantile regression. *Communications for Statistical Applications and Methods*, Accepted for publication.
+1. S. Lee, **S. Park** and Y. Lim${}^\ast$ (2021+). Prediction of extreme PM2.5 concentrations via extreme quantile regression. *Communications for Statistical Applications and Methods*, Accepted for publication.
 -->
 ```
 ```{=html}
 <!--
-1. S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park<sup>$*$</sup> (2022+). Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship. *Epidemiology and Health]*.
+1. S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022+). Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship. *Epidemiology and Health]*.
 -->
 ```
 ## Presentations
