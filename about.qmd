@@ -42,7 +42,7 @@ Now I am an assistant professor at the [Department of Information Statistics](ht
 
 ## Research Interests
 
--   Spatio-temporal data analysis and extreme value statistics, application to environmental data
+-   Spatio-temporal data analysis and extreme value statistics, application to environmental and public health data
 
 ## Academic Works
 
