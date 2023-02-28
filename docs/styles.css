@@ -1,6 +1,6 @@
 .distill-site-nav {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #c894a8;
+  background-color: #6e92b5;
   font-size: 15px;
   font-weight: 300;
 }
@@ -8,28 +8,29 @@
 /*
 color: rgba(255, 255, 255, 0.8);
 */
+/*CBNU: #c894a8*/
 
 .distill-site-nav a {
   color: inherit;
-  text-decoration: #c894a8;
-  background-color: #c894a8;
+  text-decoration: #6e92b5;
+  background-color: #6e92b5;
 }
 
 .distill-site-nav a:hover {
-  background-color: #c894a8;
+  background-color: #6e92b5;
 }
 
 .distill-site-header {
-  background-color: #c894a8;
+  background-color: #6e92b5;
 }
 
 .distill-site-footer {
-  background-color: #c894a8;
+  background-color: #6e92b5;
 }
 
 
 .distill-site-sidebar a {
-  background-color: #c894a8;
+  background-color: #6e92b5;
 }
 
 /* Change link appearance */
@@ -38,12 +39,12 @@ d-article a {
   /*border-bottom: 2px solid #ffd8db;*/
   border-bottom: none;
   /*text-decoration: none;*/
-  color: #c894a8; /* change link color */
+  color: #6e92b5; /* change link color */
 }
 
 /*hover: 마우스를 댔을 때 색상 변경*/
 d-article a:hover {
-  border-bottom: 1px solid #c894a8;
+  border-bottom: 1px solid #6e92b5;
   /*border-bottom: none;
   /*text-decoration: none;*/
   /*color: #c894a8; /* change link color */
@@ -220,7 +221,7 @@ body
     font-size: 85%;
     background-color:   #fce8e8;
     border-left: 5px solid;
-    border-color:  #f4a4a4;
+    border-color: ##6e92b5;
     padding:10px 10px 5px 20px;
 }
 

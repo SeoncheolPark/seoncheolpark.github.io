@@ -26,11 +26,13 @@ a **true** random number!
 -->
 ````
 
-Now I am an assistant professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), South Korea. Before joining Chungbuk National University, I was a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/), under the supervision of Prof. [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. degree in statistics at Seoul National University, under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
+Now I am an assistant professor at the [Department of Mathematics](http://math.hanyang.ac.kr/) and the [Department of Applied Statistics](http://stat.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/), South Korea. Before joining Hanyang University, I worked as an assistant professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr) for two years. Also, I was a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/) under the supervision of Prof. [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. degree in statistics at Seoul National University under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
 ## Professional Experiences
 
--   Assistant Professor, [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), Cheongju, Korea, March 2021 \~
+-   Assistant Professor, [Department of Mathematics](http://math.hanyang.ac.kr/) and [Department of Applied Statistics](http://stat.hanyang.ac.kr/), [Hanyang University](https://www.hanyang.ac.kr/), Seoul, Korea, March 2023 \~ 
+
+-   Assistant Professor, [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), Cheongju, Korea, March 2021 \~ February 2023.
 
 -   Post-Doctoral Research Fellow, [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/), [University of Victoria](https://www.uvic.ca), Victoria, British Columbia, Canada, August 2019 \~ January 2021.
 

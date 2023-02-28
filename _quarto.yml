@@ -8,8 +8,8 @@ website:
   navbar:
     collapse: true
     collapse-below: sm
-    logo: images/01.svg
-    href: http://stat.chungbuk.ac.kr
+    logo: images/02.svg
+    href: http://stat.hanyang.ac.kr
     background: primary
     search: true
     left:
@@ -20,7 +20,7 @@ website:
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
-  page-footer: "Copyright 2022, Seoncheol Park"
+  page-footer: "Copyright 2023, Seoncheol Park"
 format:
   html:
     theme: 
