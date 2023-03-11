@@ -30,7 +30,7 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ## Professional Experiences
 
--   Assistant Professor, [Department of Mathematics](http://math.hanyang.ac.kr/) and [Department of Applied Statistics](http://stat.hanyang.ac.kr/), [Hanyang University](https://www.hanyang.ac.kr/), Seoul, Korea, March 2023 \~ 
+-   Assistant Professor, [Department of Mathematics](http://math.hanyang.ac.kr/) and [Department of Applied Statistics](http://stat.hanyang.ac.kr/), [Hanyang University](https://www.hanyang.ac.kr/), Seoul, Korea, March 2023 \~
 
 -   Assistant Professor, [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr), Cheongju, Korea, March 2021 \~ February 2023.
 
@@ -55,19 +55,21 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 (${}^\ast$: Corresponding author, and ${}^\dagger$: Students I supervised)
 
-1. B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
+1.  J. Lee${}^\dagger$ and **S. Park**${}^\ast$ (2023+). Prediction of sharp change of particulate matter in Seoul via quantile mapping, *Communications for Statistical Applications and Methods*, Accepted for publication.
 
-2.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
+2.  B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
-3.  S. Lee, **S. Park** and Y. Lim${}^\ast$ (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
+3.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
-4.  **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
+4.  S. Lee, **S. Park** and Y. Lim${}^\ast$ (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
 
-5.  J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
+5.  **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
-6.  **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+6.  J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
 
-7.  **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+7.  **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+
+8.  **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
 
 ```{=html}
 <!--
