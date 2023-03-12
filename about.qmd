@@ -163,9 +163,19 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ## Teaching
 
+### Hanyang University
+
+#### Undergraduate Courses
+
+-   Artificial Intelligence and Machine Learning (2023 Spring)
+
+#### Graduate Courses
+
+-   Seminar in Recent Development of Applied Statistics (2023 Spring)
+
 ### Chungbuk National University
 
-#### Undergraduate Level Courses
+#### Undergraduate Courses
 
 -   Elementary Probability Theory (2022 Spring)
 
@@ -181,7 +191,7 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 -   Spatial Statistics (2022 Fall)
 
-#### Graduate Level Courses
+#### Graduate Courses
 
 -   Topics in Regression Analysis (2022 Spring)
 
