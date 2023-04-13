@@ -21,32 +21,11 @@
     "text": "미세먼지 자료 응용\n\nCOVID-19가 20대 및 30대의 등산 패턴을 어떻게 바꿨는지 미세먼지를 포함한 관련 기상변수들과 함께 일반화 가법모형을 통한 관계 분석\n산불이 미세먼지 농도에 미치는 영향 연구\n미세먼지를 포함한 날씨에 따른 산행 패턴 분석"
   },
   {
-    "objectID": "posts/intro/index.html",
-    "href": "posts/intro/index.html",
-    "title": "연구실 소개: 환경통계 연구실",
-    "section": "",
-    "text": "본 연구실에서는 미세먼지, 물환경, 기상자료, 산림자료, 해양자료 등 우리 주변에서 볼 수 있는 환경 및 공간자료를 분석할 수 있는 새로운 통계방법론을 제안하여 논문의 형태로 발표하는 것을 목표로 함"
-  },
-  {
-    "objectID": "posts/intro/index.html#데이터",
-    "href": "posts/intro/index.html#데이터",
-    "title": "연구실 소개: 환경통계 연구실",
-    "section": "데이터",
-    "text": "데이터\n\n미세먼지\n물환경\n극단 강수량\n해양열파\n가뭄인덱스\n등산GPS"
-  },
-  {
-    "objectID": "posts/intro/index.html#분석-방법",
-    "href": "posts/intro/index.html#분석-방법",
-    "title": "연구실 소개: 환경통계 연구실",
-    "section": "분석 방법",
-    "text": "분석 방법\n\n데이터마이닝: 랜덤 포레스트\n다중척도방법: 웨이블릿\n다변량분석: 요인분석\n회귀분석: 분위수 회귀분석\n극단값이론: GEV 분포"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "고농도 미세먼지 분석\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n연구실 소개: 환경통계 연구실\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "고농도 미세먼지 분석\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
