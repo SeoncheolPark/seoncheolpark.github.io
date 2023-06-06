@@ -55,9 +55,9 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 (${}^\ast$: Corresponding author, and ${}^\dagger$: Students I supervised)
 
-1.  H. Lee, S-R. Park, D-K. Kim, M-C. Song, E. Lee, U-J. Cho, S. Cho, H. Jeong, E. Park, **S. Park**, N. Heo, D. Kwon, D. Chung and J. Ha${}^\ast$ (2023+). Temporal association between age-specific incidence of Guillain–Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study, *Osong Public Health and Research Perspectives*, Accepted for publication.
+1.  H. Lee, S-R. Park, D-K. Kim, M-C. Song, E. Lee, U-J. Cho, S. Cho, H. Jeong, E. Park, **S. Park**, N. Heo, D. Kwon, D. Chung and J. Ha${}^\ast$ (2023+). Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study, *Osong Public Health and Research Perspectives*, Accepted for publication.
 
-2.  J. Lee${}^\dagger$ and **S. Park**${}^\ast$ (2023+). Prediction of sharp change of particulate matter in Seoul via quantile mapping, *Communications for Statistical Applications and Methods*, Accepted for publication.
+2.  J. Lee${}^\dagger$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
 
 3.  B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
