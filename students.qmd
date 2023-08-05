@@ -1,0 +1,24 @@
+---
+title: "Students"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+#options(knitr.table.format = "latex")
+options(knitr.table.format = "html")
+```
+
+## Current Students 
+
+MS student
+
+- Bobae Lee (2022.03 ~)
+
+- Jeongeun Lee (2023.03 ~)
+
+- Inguk Ka (2023.03 ~)
+
+## Alumni
+
+None

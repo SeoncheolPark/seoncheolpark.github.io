@@ -149,6 +149,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ## Referee
 
+-   Theoretical and Applied Climatology
+
 -   Annals of Applied Statistics
 
 -   Journal of Agricultural, Biological and Environmental Statistics
@@ -171,9 +173,13 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 #### Undergraduate Courses
 
+-   Computational Statistics (2023 Fall)
+
 -   Artificial Intelligence and Machine Learning (2023 Spring)
 
 #### Graduate Courses
+
+-   Statistical Data Science (2023 Fall)
 
 -   Seminar in Recent Development of Applied Statistics (2023 Spring)
 
