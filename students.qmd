@@ -13,11 +13,11 @@ options(knitr.table.format = "html")
 
 MS student
 
-- Bobae Lee (2022.03 ~)
+- Bobae Lee (March 2022 ~)
 
-- Jeongeun Lee (2023.03 ~)
+- Jeongeun Lee (March 2023 ~)
 
-- Inguk Ka (2023.03 ~)
+- Inguk Ka (March 2023 ~)
 
 ## Alumni
 
