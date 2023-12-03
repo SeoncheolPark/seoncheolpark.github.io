@@ -17,10 +17,6 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
-      - text: "Courses"
-        menu:
-          - text: "MAT2021 Statistical Computing"
-            url: https://seoncheolpark.github.io/course-compstat
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
