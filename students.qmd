@@ -9,16 +9,23 @@ library(kableExtra)
 options(knitr.table.format = "html")
 ```
 
-## Current Students 
+## Current Students
 
-MS student
+### Master's students
 
-- Bobae Lee (March 2022 ~)
+<!--
+-   Jeongeun Lee (March 2023 \~)
+-->
 
-- Jeongeun Lee (March 2023 ~)
-
-- Inguk Ka (March 2023 ~)
+- Inguk Ka (March 2023 \~)
 
 ## Alumni
 
-None
+### Master's degree
+
+- Bobae Lee (March 2022 \~ Feb 2024)
+  + Analyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model
+
+<!--
+국립산림과학원
+-->

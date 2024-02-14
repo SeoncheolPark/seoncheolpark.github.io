@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "posts/pm/index.html",
-    "href": "posts/pm/index.html",
-    "title": "고농도 미세먼지 분석",
-    "section": "",
-    "text": "대한민국 국민들의 미세먼지에 대한 관심은 증가했지만, 이에 미치지 못하는 부족한 예측력으로 인해 시민들에게 올바른 예측 정보가 제공되지 않음\n지난 10여년 간 관측된 미세먼지 데이터를 바탕으로, 고농도 미세먼지 예측에 초점을 맞춰 보다 예측력이 우수한 알고리즘을 개발하고, 고농도 미세먼지 발생현상의 패턴을 이해하고자 함"
-  },
-  {
-    "objectID": "posts/pm/index.html#particulate-matter-pattern-prediction",
-    "href": "posts/pm/index.html#particulate-matter-pattern-prediction",
-    "title": "고농도 미세먼지 분석",
-    "section": "Particulate matter pattern prediction",
-    "text": "Particulate matter pattern prediction\n\nQuantile-Quantile mapping을 통한 서울 고농도 극단 미세먼지 예측\n조건부 극단값 모형을 대한민국 미세먼지 자료에 응용"
-  },
-  {
-    "objectID": "posts/pm/index.html#particulate-matter-data-application",
-    "href": "posts/pm/index.html#particulate-matter-data-application",
-    "title": "고농도 미세먼지 분석",
-    "section": "Particulate matter data application",
-    "text": "Particulate matter data application\n\nCOVID-19가 20대 및 30대의 등산 패턴을 어떻게 바꿨는지 미세먼지를 포함한 관련 기상변수들과 함께 일반화 가법모형을 통한 관계 분석\n산불이 미세먼지 농도에 미치는 영향 연구\n미세먼지를 포함한 날씨에 따른 산행 패턴 분석"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "고농도 미세먼지 분석\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Seoncheol Park",
-    "section": "",
-    "text": "Hello, I am Seoncheol Park. Now I am an assistant professor at the Department of Mathematics and the Department of Applied Statistics at Hanyang University, South Korea. Before joining Hanyang University, I worked as an assistant professor at the Department of Information Statistics, Chungbuk National University for two years. Also, I was a post-doctoral research fellow at the Pacific Climate Impacts Consortium under the supervision of Prof. Francis Zwiers. I received my Ph.D. degree in statistics at Seoul National University under the supervision of Prof. Hee-Seok Oh. I was also a member of Multiscale Methods in Statistics Lab."
-  },
-  {
-    "objectID": "students.html",
-    "href": "students.html",
-    "title": "Students",
-    "section": "",
-    "text": "MS student\n\nBobae Lee (March 2022 ~)\nJeongeun Lee (March 2023 ~)\nInguk Ka (March 2023 ~)"
-  },
-  {
-    "objectID": "students.html#current-students",
-    "href": "students.html#current-students",
-    "title": "Students",
-    "section": "",
-    "text": "MS student\n\nBobae Lee (March 2022 ~)\nJeongeun Lee (March 2023 ~)\nInguk Ka (March 2023 ~)"
-  },
-  {
-    "objectID": "students.html#alumni",
-    "href": "students.html#alumni",
-    "title": "Students",
-    "section": "Alumni",
-    "text": "Alumni\nNone"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -95,13 +39,69 @@
     "href": "about.html#academic-works",
     "title": "About",
     "section": "Academic Works",
-    "text": "Academic Works\n\nPublicationsPresentationsAwardsGrantsRefereeTeaching\n\n\n\nInternational Journal Papers\n(\\({}^\\ast\\): Corresponding author, and \\({}^\\dagger\\): Students I supervised)\n\nH. Lee, D. Kwon, S. Park, S-R. Park, , D. Chung and J. Ha\\({}^\\ast\\) (2023). Temporal association between age-specific incidence of Guillain–Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study, Osong Public Health and Research Perspectives, 14(3), 224–231.\nJ. Lee\\({}^\\dagger\\) and S. Park\\({}^\\ast\\) (2023). Prediction of sharp change of particulate matter in Seoul via quantile mapping, Communications for Statistical Applications and Methods, 30(3), 259–272.\nB. Lee\\({}^\\dagger\\), P. Yeon and S. Park\\({}^\\ast\\) (2022). The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s, International Journal of Environmental Research and Public Health, 19(24), 16403.\nS. Cho, Y-M. Kim, G. Seong, S. Park, S. Park, S-E. Lee and Y. Park\\({}^\\ast\\) (2022). Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship. Epidemiology and Health, 44, e2022065.\nS. Lee, S. Park and Y. Lim\\({}^\\ast\\) (2022). Prediction of extreme PM2.5 concentrations via extreme quantile regression. Communications for Statistical Applications and Methods, 29(3), 319–331.\nS. Park and H-S. Oh\\({}^\\ast\\) (2022). Lifting scheme for streamflow data in river networks. Journal of the Royal Statistical Society: Series C (Applied Statistics), 71(2), 467–490.\nJ. Kim, S. Park\\({}^\\ast\\), J. Kwon, Y. Lim and H-S. Oh (2021). Estimation of spatio-temporal extreme distribution using a quantile factor model. Extremes, 24(1), 177–195.\nS. Park\\({}^\\ast\\), J. Kwon, J. Kim and H-S. Oh (2018). Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team. Extremes, 21(3), 463–476.\nS. Park and H-S. Oh\\({}^\\ast\\) (2017). Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach. Stochastic Environmental Research and Risk Assessment, 31(9), 2401–2414.\n\n\n\n\n\n\n\n\n\nSpatial statistical models for environmental data in Korea, Japanese Joint Statistical Meeting 2022, Tokyo, Japan, September 2022.\nLifting scheme for streamflow data in river networks, 2022 The Korean Data Information Science Society Spring Conference, Busan, Korea, May 2022.\nLifting scheme for streamflow data in river networks, 2021 The Korean Statistical Society Autumn Conference, Seoul, Korea, November 2021.\nLifting scheme for streamflow data in river networks, Bernoulli-IMS 10th World Congress in Probability and Statistics, Seoul, Korea, July 2021.\nA new approach for modelling the spatial extent of agricultural drought, The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress, Victoria, Canada, June 2021.\nMultiresolution analysis for spatio-temporal data, 5th Institute of Mathematical Statistics Asia Pacific Rim Meeting, Singapore, Singapore, June 2018.\nPrediction of extremal precipitation: the use of quantile regression forests, 10th Extreme Value Analysis Conference, Delft, Netherlands, June 2017.\nMultiresolution analysis for spatio-temporal data. 2017 The Korean Statistical Society Spring Conference, Seoul, Korea, May 2017.\nMultiscale modeling for particulate matter extremes. 2015 The Korean Statistical Society Autumn Conference, Yongin, Korea, November 2015.\nMultiscale modeling for particulate matter extremes in Seoul. The Seoul Institute Research Competition 2015, Seoul, Korea, November 2015.\nPrediction of extreme particulate matter : the use of quantile regression forests. 2014 The Korean Statistical Society Autumn Conference, Seoul, Korea, November 2014.\n\n\n\n\nExcellence award (3rd place), KSIAM-MathWorks problem challenge, Korea Society for Industrial and Applied Mathematics, Sep 2018.\nBest oral presentation award (Pre-PhD): Multiresolution analysis for spatio-temporal data. The Korean Statistical Society, May 2017.\nExcellence award, The Seoul Institute Research Competition 2015, The Seoul Institute, November 2015.\n\n\n\n\nInternational or Domestic Research Foundations\n\nBasic Science Research Program (기본연구), Korean Ministry of Education, June 2021 ~\n\n\n\nUniversity Grants\n\n신임교원 정착 연구 지원사업, Hanyang University (HYU), March 2023 ~\n신진교수 연구비 지원사업, Chungbuk National University (CBNU), March 2021 ~ August 2022.\n\n\n\nScholarship\n\nSohn Dong-Joon Scholarship, College of Natural Sciences (SNU), May 2016 ~ August 2019.\n\n\n\n\n\nTheoretical and Applied Climatology\nAnnals of Applied Statistics\nJournal of Agricultural, Biological and Environmental Statistics\nExtremes\nStochastic Environmental Research and Risk Assessment\nComputational Statistics\nJournal of the Korean Statistical Society\nCommunications for Statistical Applications and Methods\nComputational Statistics and Data Analysis\n\n\n\n\nHanyang University\n\nUndergraduate Courses\n\nComputational Statistics (2023 Fall)\nArtificial Intelligence and Machine Learning (2023 Spring)\n\n\n\nGraduate Courses\n\nStatistical Data Science (2023 Fall)\nSeminar in Recent Development of Applied Statistics (2023 Spring)\n\n\n\n\nChungbuk National University\n\nUndergraduate Courses\n\nElementary Probability Theory (2022 Spring)\nRegression Analysis (2021 Spring, 2022 Spring)\nStatistical Simulation (2021 Spring)\nInsurance Statistics (2021 Fall)\nFinancial Statistics (2021 Fall)\nFinancial and Insurance Statistics (2022 Fall)\nSpatial Statistics (2022 Fall)\n\n\n\nGraduate Courses\n\nTopics in Regression Analysis (2022 Spring)\nStatistical Methodology (2021 Spring)\nMachine Learning Methodology (2022 Fall)\nDeep Learning (2021 Fall)"
+    "text": "Academic Works\n\nPublicationsPresentationsAwardsGrantsRefereeTeaching\n\n\n\nInternational Journal Papers\n(\\({}^\\ast\\): Corresponding author, and \\({}^{\\ast\\ast}\\): Students I supervised)\n\nH. Lee, D. Kwon, S. Park, S-R. Park, , D. Chung and J. Ha\\({}^\\ast\\) (2023). Temporal association between age-specific incidence of Guillain–Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study, Osong Public Health and Research Perspectives, 14(3), 224–231.\nJ. Lee\\({}^{\\ast\\ast}\\) and S. Park\\({}^\\ast\\) (2023). Prediction of sharp change of particulate matter in Seoul via quantile mapping, Communications for Statistical Applications and Methods, 30(3), 259–272.\nB. Lee\\({}^{\\ast\\ast}\\), P. Yeon and S. Park\\({}^\\ast\\) (2022). The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s, International Journal of Environmental Research and Public Health, 19(24), 16403.\nS. Cho, Y-M. Kim, G. Seong, S. Park, S. Park, S-E. Lee and Y. Park\\({}^\\ast\\) (2022). Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship. Epidemiology and Health, 44, e2022065.\nS. Lee, S. Park and Y. Lim\\({}^\\ast\\) (2022). Prediction of extreme PM2.5 concentrations via extreme quantile regression. Communications for Statistical Applications and Methods, 29(3), 319–331.\nS. Park and H-S. Oh\\({}^\\ast\\) (2022). Lifting scheme for streamflow data in river networks. Journal of the Royal Statistical Society: Series C (Applied Statistics), 71(2), 467–490.\nJ. Kim, S. Park\\({}^\\ast\\), J. Kwon, Y. Lim and H-S. Oh (2021). Estimation of spatio-temporal extreme distribution using a quantile factor model. Extremes, 24(1), 177–195.\nS. Park\\({}^\\ast\\), J. Kwon, J. Kim and H-S. Oh (2018). Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team. Extremes, 21(3), 463–476.\nS. Park and H-S. Oh\\({}^\\ast\\) (2017). Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach. Stochastic Environmental Research and Risk Assessment, 31(9), 2401–2414.\n\n\n\n\n\n\n\n\n\nSpatial statistical models for environmental data in Korea, Japanese Joint Statistical Meeting 2022, Tokyo, Japan, September 2022.\nLifting scheme for streamflow data in river networks, 2022 The Korean Data Information Science Society Spring Conference, Busan, Korea, May 2022.\nLifting scheme for streamflow data in river networks, 2021 The Korean Statistical Society Autumn Conference, Seoul, Korea, November 2021.\nLifting scheme for streamflow data in river networks, Bernoulli-IMS 10th World Congress in Probability and Statistics, Seoul, Korea, July 2021.\nA new approach for modelling the spatial extent of agricultural drought, The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress, Victoria, Canada, June 2021.\nMultiresolution analysis for spatio-temporal data, 5th Institute of Mathematical Statistics Asia Pacific Rim Meeting, Singapore, Singapore, June 2018.\nPrediction of extremal precipitation: the use of quantile regression forests, 10th Extreme Value Analysis Conference, Delft, Netherlands, June 2017.\nMultiresolution analysis for spatio-temporal data. 2017 The Korean Statistical Society Spring Conference, Seoul, Korea, May 2017.\nMultiscale modeling for particulate matter extremes. 2015 The Korean Statistical Society Autumn Conference, Yongin, Korea, November 2015.\nMultiscale modeling for particulate matter extremes in Seoul. The Seoul Institute Research Competition 2015, Seoul, Korea, November 2015.\nPrediction of extreme particulate matter : the use of quantile regression forests. 2014 The Korean Statistical Society Autumn Conference, Seoul, Korea, November 2014.\n\n\n\n\nExcellence award (3rd place), KSIAM-MathWorks problem challenge, Korea Society for Industrial and Applied Mathematics, Sep 2018.\nBest oral presentation award (Pre-PhD): Multiresolution analysis for spatio-temporal data. The Korean Statistical Society, May 2017.\nExcellence award, The Seoul Institute Research Competition 2015, The Seoul Institute, November 2015.\n\n\n\n\nInternational or Domestic Research Foundations\n\nBasic Science Research Program (기본연구), Korean Ministry of Education, June 2021 ~ August 2024.\n\n\n\nUniversity Grants\n\n신임교원 정착 연구 지원사업, Hanyang University (HYU), March 2023 ~ August 2024.\n신진교수 연구비 지원사업, Chungbuk National University (CBNU), March 2021 ~ August 2022.\n\n\n\nScholarship\n\nSohn Dong-Joon Scholarship, College of Natural Sciences (SNU), May 2016 ~ August 2019.\n\n\n\n\n\nTheoretical and Applied Climatology\nAnnals of Applied Statistics\nJournal of Agricultural, Biological and Environmental Statistics\nExtremes\nStochastic Environmental Research and Risk Assessment\nComputational Statistics\nJournal of the Korean Statistical Society\nCommunications for Statistical Applications and Methods\nComputational Statistics and Data Analysis\n\n\n\n\nHanyang University\n\nUndergraduate Courses\n\nIntroduction to Regression Analysis (2024 Spring)\nComputational Statistics (2023 Fall)\nArtificial Intelligence and Machine Learning (2023 Spring, 2024 Spring)\n\n\n\nGraduate Courses\n\nRegression Analysis (2024 Spring)\nStatistical Data Science (2023 Fall)\nSeminar in Recent Development of Applied Statistics (2023 Spring)\n\n\n\n\nChungbuk National University\n\nUndergraduate Courses\n\nElementary Probability Theory (2022 Spring)\nRegression Analysis (2021 Spring, 2022 Spring)\nStatistical Simulation (2021 Spring)\nInsurance Statistics (2021 Fall)\nFinancial Statistics (2021 Fall)\nFinancial and Insurance Statistics (2022 Fall)\nSpatial Statistics (2022 Fall)\n\n\n\nGraduate Courses\n\nTopics in Regression Analysis (2022 Spring)\nStatistical Methodology (2021 Spring)\nMachine Learning Methodology (2022 Fall)\nDeep Learning (2021 Fall)"
   },
   {
     "objectID": "about.html#contact-me",
     "href": "about.html#contact-me",
     "title": "About",
     "section": "Contact Me",
-    "text": "Contact Me\npscstat@gmail.com"
+    "text": "Contact Me\npscstat@hanyang.ac.kr or pscstat@gmail.com"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seoncheol Park",
+    "section": "",
+    "text": "Hello, I am Seoncheol Park. Now I am an assistant professor at the Department of Mathematics and the Department of Applied Statistics at Hanyang University, South Korea. Before joining Hanyang University, I worked as an assistant professor at the Department of Information Statistics, Chungbuk National University for two years. Also, I was a post-doctoral research fellow at the Pacific Climate Impacts Consortium under the supervision of Prof. Francis Zwiers. I received my Ph.D. degree in statistics at Seoul National University under the supervision of Prof. Hee-Seok Oh. I was also a member of Multiscale Methods in Statistics Lab."
+  },
+  {
+    "objectID": "posts/pm/index.html",
+    "href": "posts/pm/index.html",
+    "title": "고농도 미세먼지 분석",
+    "section": "",
+    "text": "대한민국 국민들의 미세먼지에 대한 관심은 증가했지만, 이에 미치지 못하는 부족한 예측력으로 인해 시민들에게 올바른 예측 정보가 제공되지 않음\n지난 10여년 간 관측된 미세먼지 데이터를 바탕으로, 고농도 미세먼지 예측에 초점을 맞춰 보다 예측력이 우수한 알고리즘을 개발하고, 고농도 미세먼지 발생현상의 패턴을 이해하고자 함"
+  },
+  {
+    "objectID": "posts/pm/index.html#particulate-matter-pattern-prediction",
+    "href": "posts/pm/index.html#particulate-matter-pattern-prediction",
+    "title": "고농도 미세먼지 분석",
+    "section": "Particulate matter pattern prediction",
+    "text": "Particulate matter pattern prediction\n\nQuantile-Quantile mapping을 통한 서울 고농도 극단 미세먼지 예측\n조건부 극단값 모형을 대한민국 미세먼지 자료에 응용"
+  },
+  {
+    "objectID": "posts/pm/index.html#particulate-matter-data-application",
+    "href": "posts/pm/index.html#particulate-matter-data-application",
+    "title": "고농도 미세먼지 분석",
+    "section": "Particulate matter data application",
+    "text": "Particulate matter data application\n\nCOVID-19가 20대 및 30대의 등산 패턴을 어떻게 바꿨는지 미세먼지를 포함한 관련 기상변수들과 함께 일반화 가법모형을 통한 관계 분석\n산불이 미세먼지 농도에 미치는 영향 연구\n미세먼지를 포함한 날씨에 따른 산행 패턴 분석"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "고농도 미세먼지 분석\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "Students",
+    "section": "",
+    "text": "Inguk Ka (March 2023 ~)"
+  },
+  {
+    "objectID": "students.html#current-students",
+    "href": "students.html#current-students",
+    "title": "Students",
+    "section": "",
+    "text": "Inguk Ka (March 2023 ~)"
+  },
+  {
+    "objectID": "students.html#alumni",
+    "href": "students.html#alumni",
+    "title": "Students",
+    "section": "Alumni",
+    "text": "Alumni\n\nMaster’s degree\n\nBobae Lee (March 2022 ~ Feb 2024)\n\nAnalyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model"
   }
 ]

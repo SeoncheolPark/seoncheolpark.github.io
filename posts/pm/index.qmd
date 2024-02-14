@@ -36,20 +36,22 @@ past, ongoing, forthcoming
 
 # Grants
 
--   **극단 미세먼지 현상의 조건부 공간 모델링**, 한국연구재단 기본연구, June 2021 \~ February 2024.
+-   **극단 미세먼지 현상의 조건부 공간 모델링**, 한국연구재단 기본연구, June 2021 \~ August 2024.
 
 -   **관광기업 가명정보결합 시범사업** (with [Kakao VX](https://kakaovx.com/)), 한국관광공사, July 2022 \~ February 2023.
 
-# Presentations
-
-1.  **J. Lee** and **S. Park**. [Prediction of Sharp Change of Particulate Matter in Seoul via Quantile Mapping](http://www.kss.or.kr/bbs/board.php?bo_table=notice&wr_id=1499), *2022 한국통계학회 하계학술대회*, 서울대학교, 대한민국, June 2022.
-
 # Publications
 
-1.  J. Lee${}^\dagger$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
+(${}^\ast$: Corresponding author, and ${}^{\ast\ast}$: Students I supervised)
 
-2.  B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
+1.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
+
+2.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
 3.  S. Lee, **S. Park** and Y. Lim<sup>$*$</sup> (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
 
 4.  **S. Park** and H-S. Oh<sup>$*$</sup> (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+
+# Presentations
+
+1.  **J. Lee**${}^{\ast\ast}$ and **S. Park**${}^\ast$. [Prediction of Sharp Change of Particulate Matter in Seoul via Quantile Mapping](http://www.kss.or.kr/bbs/board.php?bo_table=notice&wr_id=1499), *2022 한국통계학회 하계학술대회*, 서울대학교, 대한민국, June 2022.

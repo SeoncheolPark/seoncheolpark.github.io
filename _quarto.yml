@@ -17,10 +17,11 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
+      - students.qmd
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
-  page-footer: "Copyright 2023, Seoncheol Park"
+  page-footer: "© Copyright 2024, Seoncheol Park"
 format:
   html:
     theme: 

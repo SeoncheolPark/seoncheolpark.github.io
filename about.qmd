@@ -53,13 +53,13 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ### International Journal Papers
 
-(${}^\ast$: Corresponding author, and ${}^\dagger$: Students I supervised)
+(${}^\ast$: Corresponding author, and ${}^{\ast\ast}$: Students I supervised)
 
 1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study](https://doi.org/10.24171/j.phrp.2023.0050), *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
 
-2.  J. Lee${}^\dagger$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
+2.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
 
-3.  B. Lee${}^\dagger$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
+3.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
 4.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
@@ -135,11 +135,11 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ### International or Domestic Research Foundations
 
--   Basic Science Research Program (기본연구), *Korean Ministry of Education*, June 2021 \~
+-   Basic Science Research Program (기본연구), *Korean Ministry of Education*, June 2021 \~ August 2024.
 
 ### University Grants
 
--   신임교원 정착 연구 지원사업, *Hanyang University (HYU)*, March 2023 \~
+-   신임교원 정착 연구 지원사업, *Hanyang University (HYU)*, March 2023 \~ August 2024.
 
 -   신진교수 연구비 지원사업, *Chungbuk National University (CBNU)*, March 2021 \~ August 2022.
 
@@ -173,11 +173,15 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 #### Undergraduate Courses
 
+-   Introduction to Regression Analysis (2024 Spring)
+
 -   Computational Statistics (2023 Fall)
 
--   Artificial Intelligence and Machine Learning (2023 Spring)
+-   Artificial Intelligence and Machine Learning (2023 Spring, 2024 Spring)
 
 #### Graduate Courses
+
+-   Regression Analysis (2024 Spring)
 
 -   Statistical Data Science (2023 Fall)
 
@@ -214,4 +218,4 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ## Contact Me
 
-[pscstat\@gmail.com](mailto:pscstat@gmail.com)
+[pscstat\@hanyang.ac.kr](mailto:pscstat@hanyang.ac.kr) or [pscstat\@gmail.com](mailto:pscstat@gmail.com)
