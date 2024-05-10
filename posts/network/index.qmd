@@ -26,6 +26,8 @@ past, ongoing, forthcoming
 
 - [Network Kernel Densiy Estimate](https://cran.r-project.org/web/packages/spNetwork/vignettes/NKDE.html)
 
+- [New Approaches in Statistical Modeling](https://edoc.ub.uni-muenchen.de/28868/2/Schneble_Marc.pdf#page76)
+
 # Publications
 
 1. **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
