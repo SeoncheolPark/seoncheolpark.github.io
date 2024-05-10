@@ -103,6 +103,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 1.  Spatial statistical models for environmental data in Korea, *Japanese Joint Statistical Meeting 2022*, Tokyo, Japan, September 2022.
 
+3. Prediction of sharp change of particulate Matter in seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Spring Conference*, Seoul, Korea, June 2022.
+
 2.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 
 3.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
@@ -134,6 +136,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 ## Grants
 
 ### International or Domestic Research Foundations
+
+- Outstanding Young Scientist Grants (우수신진연구), *Korean Ministry of Science and ICT*, April 2024 \~ March 2027.
 
 -   Basic Science Research Program (기본연구), *Korean Ministry of Education*, June 2021 \~ August 2024.
 
@@ -173,15 +177,17 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 #### Undergraduate Courses
 
--   Introduction to Regression Analysis (2024 Spring)
+-   Computational Statistics (2023 Fall, 2024 Fall)
 
--   Computational Statistics (2023 Fall)
+-   Introduction to Regression Analysis (2024 Spring)
 
 -   Artificial Intelligence and Machine Learning (2023 Spring, 2024 Spring)
 
 #### Graduate Courses
 
 -   Regression Analysis (2024 Spring)
+
+-   Nonparametric Statistics (2024 Fall)
 
 -   Statistical Data Science (2023 Fall)
 

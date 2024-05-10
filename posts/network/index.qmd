@@ -1,0 +1,31 @@
+---
+title: "Statistical Analysis of Spatial Data on a Linear Network"
+author: "Seoncheol Park"
+date: "2024-04-01"
+categories: [ongoing]
+image: "Figure01.png"
+draft: false
+---
+
+```{=html}
+<!--
+past, ongoing, forthcoming
+-->
+```
+# Background
+
+- [금강 유역에서 관찰된 총유기탄소 자료](https://academic.oup.com/jrsssc/article/71/2/467/7033928), [신경계의 수상돌기 자료](https://academic.oup.com/jrsssc/article/63/5/673/7073251) 와 같이 우리 주변에서 네트워크 위에서 관찰된 자료들은 많이 존재함
+
+- 이러한 자료들은 네트워크 거리 기반 상관관계가 존재하는 경우가 많고, 이 상황에서 일반적인 유클리드 공간에서 정의된 거리 기반 통계 방법론이 잘 작동하지 않거나 개선이 필요한 경우가 많음
+
+- 본 연구과제에서는 네트워크 자료에 맞는 자료 적응적 통계 방법론을 개발하는 것을 목표로 함
+
+# Related works
+
+- [An Introduction to Spatial Stream Network Modeling in R Using `SSN2`](https://cran.r-project.org/web/packages/SSN2/vignettes/introduction.html#References)
+
+- [Network Kernel Densiy Estimate](https://cran.r-project.org/web/packages/spNetwork/vignettes/NKDE.html)
+
+# Publications
+
+1. **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.

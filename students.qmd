@@ -17,13 +17,19 @@ options(knitr.table.format = "html")
 -   Jeongeun Lee (March 2023 \~)
 -->
 
-- Inguk Ka (March 2023 \~)
+- Inguk Ka (March 2023 \~ )
+
+- Minseo Kim (March 2024 \~ )
+
+- Min Ju Kim (March 2024 \~ )
+
+- Seungyeon Lim (March 2024 \~ )
 
 ## Alumni
 
 ### Master's degree
 
-- Bobae Lee (March 2022 \~ Feb 2024)
+- Bobae Lee (Feb 2024)
   + Analyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model
 
 <!--
