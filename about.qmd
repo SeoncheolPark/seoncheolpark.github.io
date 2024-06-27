@@ -55,25 +55,29 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 (${}^\ast$: Corresponding author, and ${}^{\ast\ast}$: Students I supervised)
 
+::: {}
+
 1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024+). Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study. *PLOS ONE*, Accepted for publication.
 
-2.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study](https://doi.org/10.24171/j.phrp.2023.0050), *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
+1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study](https://doi.org/10.24171/j.phrp.2023.0050), *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
 
-3.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
+1.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
 
-4.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
+1.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
-5.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
+1.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
-6.  S. Lee, **S. Park** and Y. Lim${}^\ast$ (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
+1.  S. Lee, **S. Park** and Y. Lim${}^\ast$ (2022). [Prediction of extreme PM2.5 concentrations via extreme quantile regression.](https://doi.org/10.29220/CSAM.2022.29.3.319) *Communications for Statistical Applications and Methods*, **29(3)**, 319--331.
 
-7.  **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
+1.  **S. Park** and H-S. Oh${}^\ast$ (2022). [Lifting scheme for streamflow data in river networks.](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12542) *Journal of the Royal Statistical Society: Series C (Applied Statistics)*, **71(2)**, 467--490.
 
-8.  J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
+1.  J. Kim, **S. Park**${}^\ast$, J. Kwon, Y. Lim and H-S. Oh (2021). [Estimation of spatio-temporal extreme distribution using a quantile factor model.](https://link.springer.com/article/10.1007/s10687-020-00404-0) *Extremes*, **24(1)**, 177--195.
 
-9.  **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
+1.  **S. Park**${}^\ast$, J. Kwon, J. Kim and H-S. Oh (2018). [Prediction of extremal precipitation by quantile regression forests: from SNU Multiscale team.](https://link.springer.com/article/10.1007/s10687-018-0323-y) *Extremes*, **21(3)**, 463--476.
 
-10.  **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+1.  **S. Park** and H-S. Oh${}^\ast$ (2017). [Spatio-temporal analysis of particulate matter extremes in Seoul: use of multiscale approach.](http://dx.doi.org/10.1007/s00477-016-1376-6) *Stochastic Environmental Research and Risk Assessment*, **31(9)**, 2401--2414.
+
+:::
 
 ```{=html}
 <!--
@@ -103,37 +107,47 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 ```
 ## Presentations
 
+::: {}
+
+1. Estimation of marine heatwaves in the East Sea: The extreme value generalized additive model approach, *Asia Oceania Geosciences Society (AOGS) 2024 21^th^ Annual Meeting*, Pyeongchang, Korea, June 2024.
+
 1.  Spatial statistical models for environmental data in Korea, *Japanese Joint Statistical Meeting 2022*, Tokyo, Japan, September 2022.
 
-3. Prediction of sharp change of particulate Matter in seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Spring Conference*, Seoul, Korea, June 2022.
+1. Prediction of sharp change of particulate Matter in seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Spring Conference*, Seoul, Korea, June 2022.
 
-2.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
+1.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 
-3.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
+1.  Lifting scheme for streamflow data in river networks, *2021 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2021.
 
-4.  Lifting scheme for streamflow data in river networks, *Bernoulli-IMS 10th World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
+1.  Lifting scheme for streamflow data in river networks, *Bernoulli-IMS 10^th^ World Congress in Probability and Statistics*, Seoul, Korea, July 2021.
 
-5.  A new approach for modelling the spatial extent of agricultural drought, *The 55th Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
+1.  A new approach for modelling the spatial extent of agricultural drought, *The 55^th^ Canadian Meteorological and Oceanographic Society (CMOS) Congress*, Victoria, Canada, June 2021.
 
-6.  Multiresolution analysis for spatio-temporal data, *5th Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
+1.  Multiresolution analysis for spatio-temporal data, *5^th^ Institute of Mathematical Statistics Asia Pacific Rim Meeting*, Singapore, Singapore, June 2018.
 
-7.  [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10th Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
+1.  [Prediction of extremal precipitation: the use of quantile regression forests](http://www.eva2017.nl/program/scipro/friday/index.html), *10^th^ Extreme Value Analysis Conference*, Delft, Netherlands, June 2017.
 
-8.  Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
+1.  Multiresolution analysis for spatio-temporal data. *2017 The Korean Statistical Society Spring Conference*, Seoul, Korea, May 2017.
 
-9.  Multiscale modeling for particulate matter extremes. *2015 The Korean Statistical Society Autumn Conference*, Yongin, Korea, November 2015.
+1.  Multiscale modeling for particulate matter extremes. *2015 The Korean Statistical Society Autumn Conference*, Yongin, Korea, November 2015.
 
-10. [Multiscale modeling for particulate matter extremes in Seoul](http://data.si.re.kr/node/623). *The Seoul Institute Research Competition 2015*, Seoul, Korea, November 2015.
+1. [Multiscale modeling for particulate matter extremes in Seoul](http://data.si.re.kr/node/623). *The Seoul Institute Research Competition 2015*, Seoul, Korea, November 2015.
 
-11. Prediction of extreme particulate matter : the use of quantile regression forests. *2014 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2014.
+1. Prediction of extreme particulate matter : the use of quantile regression forests. *2014 The Korean Statistical Society Autumn Conference*, Seoul, Korea, November 2014.
+
+:::
 
 ## Awards
 
+::: {}
+
 1.  Excellence award (3rd place), KSIAM-MathWorks problem challenge, *Korea Society for Industrial and Applied Mathematics*, Sep 2018.
 
-2.  Best oral presentation award (Pre-PhD): Multiresolution analysis for spatio-temporal data. *The Korean Statistical Society*, May 2017.
+1.  Best oral presentation award (Pre-PhD): Multiresolution analysis for spatio-temporal data. *The Korean Statistical Society*, May 2017.
 
-3.  Excellence award, [The Seoul Institute Research Competition 2015](http://data.si.re.kr/node/623), *The Seoul Institute*, November 2015.
+1.  Excellence award, [The Seoul Institute Research Competition 2015](http://data.si.re.kr/node/623), *The Seoul Institute*, November 2015.
+
+:::
 
 ## Grants
 
