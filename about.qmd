@@ -57,6 +57,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ::: {}
 
+1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). Semiparametric approaches for the inference of univariate and multivariate extremes. *Extremes*, Accepted for publication.
+
 1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024+). Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study. *PLOS ONE*, Accepted for publication.
 
 1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study](https://doi.org/10.24171/j.phrp.2023.0050), *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
