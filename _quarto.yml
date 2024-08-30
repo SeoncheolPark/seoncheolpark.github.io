@@ -18,6 +18,10 @@ website:
       - about.qmd
       - projects.qmd
       - students.qmd
+      - text: "Courses"
+        menu:
+          - text: "Statistical Computing (2024 Fall)"
+            href: https://seoncheolpark.github.io/course-compstat/
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
