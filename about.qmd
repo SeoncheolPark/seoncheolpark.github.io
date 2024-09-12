@@ -57,15 +57,15 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ::: {}
 
-1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). Semiparametric approaches for the inference of univariate and multivariate extremes. *Extremes*, Accepted for publication.
+1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, In press.
 
 1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024+). Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study. *PLOS ONE*, Accepted for publication.
 
-1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study](https://doi.org/10.24171/j.phrp.2023.0050), *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
+1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study.](https://doi.org/10.24171/j.phrp.2023.0050) *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
 
-1.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping](https://doi.org/10.29220/CSAM.2023.30.3.259), *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
+1.  J. Lee${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2023). [Prediction of sharp change of particulate matter in Seoul via quantile mapping.](https://doi.org/10.29220/CSAM.2023.30.3.259) *Communications for Statistical Applications and Methods*, **30(3)**, 259--272.
 
-1.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s](https://www.mdpi.com/1660-4601/19/24/16403), *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
+1.  B. Lee${}^{\ast\ast}$, P. Yeon and **S. Park**${}^\ast$ (2022). [The factors and relationships influencing urban hiking exercise characteristics after COVID-19 occurrence: at Seoul Metropolitan Area and in their 20s and 30s.](https://www.mdpi.com/1660-4601/19/24/16403) *International Journal of Environmental Research and Public Health*, **19(24)**, 16403.
 
 1.  S. Cho, Y-M. Kim, G. Seong, S. Park, **S. Park**, S-E. Lee and Y. Park${}^\ast$ (2022). [Analysis of on-ship transmission through cases of COVID-19 mass outbreak on Republic of Korea Navy Amphibious Warfare ship.](https://doi.org/10.4178/epih.e2022065) *Epidemiology and Health*, **44**, e2022065.
 
@@ -190,6 +190,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 -   Communications for Statistical Applications and Methods
 
 -   Computational Statistics and Data Analysis
+
+-   Scientific Reports
 
 ## Teaching
 
