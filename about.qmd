@@ -59,7 +59,7 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, In press.
 
-1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024+). Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study. *PLOS ONE*, Accepted for publication.
+1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024+). [Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301313) *PLOS ONE*, **19(10)**, e0301313.
 
 1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study.](https://doi.org/10.24171/j.phrp.2023.0050) *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
 
@@ -171,7 +171,9 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 -   Sohn Dong-Joon Scholarship, *College of Natural Sciences (SNU)*, May 2016 \~ August 2019.
 
-## Referee
+## Services
+
+### Referee
 
 -   Theoretical and Applied Climatology
 
@@ -192,6 +194,12 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 -   Computational Statistics and Data Analysis
 
 -   Scientific Reports
+
+### Professional Services
+
+- 한국통계학회 평의원
+
+- 서울특별시 스마트도시위원회 위원
 
 ## Teaching
 
