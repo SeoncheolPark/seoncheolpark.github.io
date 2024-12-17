@@ -59,6 +59,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, In press.
 
+1. B. Lee, H-D. Sou${}^\ast$, P. Yeon, H. Lee, C-R. Park, S. Choi and **S. Park**${}^\ast$ (2024). [Seasonal Characteristics of Particulate Matter by Pollution Source Type and Urban Forest Type.](https://doi.org/10.3390/app14219988) *Applied Sciences*, **14(21)**, 9988.
+
 1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024). [Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301313) *PLOS ONE*, **19(10)**, e0301313.
 
 1.  H. Lee, D. Kwon, **S. Park**, S-R. Park, , D. Chung and J. Ha${}^\ast$ (2023). [Temporal association between age-specific incidence of Guillain--Barré syndrome and SARS-CoV-2 vaccination; a nationwide time-series correlation study.](https://doi.org/10.24171/j.phrp.2023.0050) *Osong Public Health and Research Perspectives*, **14(3)**, 224--231.
@@ -111,11 +113,13 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ::: {}
 
+1. [Clustering of Mountain Hiking GPS-Trajectory Data](https://webpageprodvm.ntu.edu.tw/IASC-ARS_Interim_2024/cp.aspx?n=190889), *IASC-ARS Interim Conference 2024*, Taipei, Taiwan, December 2024.
+
 1. Estimation of marine heatwaves in the East Sea: The extreme value generalized additive model approach, *Asia Oceania Geosciences Society (AOGS) 2024 21^th^ Annual Meeting*, Pyeongchang, Korea, June 2024.
 
 1.  Spatial statistical models for environmental data in Korea, *Japanese Joint Statistical Meeting 2022*, Tokyo, Japan, September 2022.
 
-1. Prediction of sharp change of particulate Matter in seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Spring Conference*, Seoul, Korea, June 2022.
+1. Prediction of sharp change of particulate Matter in Seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Spring Conference*, Seoul, Korea, June 2022.
 
 1.  Lifting scheme for streamflow data in river networks, *2022 The Korean Data Information Science Society Spring Conference*, Busan, Korea, May 2022.
 
@@ -207,17 +211,19 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 #### Undergraduate Courses
 
--   Computational Statistics (2023 Fall, 2024 Fall)
+-   Statistical Computing (2023 Fall, 2024 Fall)
 
 -   Introduction to Regression Analysis (2024 Spring)
 
--   Artificial Intelligence and Machine Learning (2023 Spring, 2024 Spring)
+-   Artificial Intelligence and Machine Learning (2023 Spring, 2024 Spring, 2025 Spring)
 
 #### Graduate Courses
 
 -   Regression Analysis (2024 Spring)
 
 -   Nonparametric Statistics (2024 Fall)
+
+-   Linear Models (2025 Spring)
 
 -   Statistical Data Science (2023 Fall)
 
