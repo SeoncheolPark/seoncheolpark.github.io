@@ -19,19 +19,12 @@ options(knitr.table.format = "html")
 -->
 ```
 
--   Inguk Ka (March 2023 \~ )
-
 -   Minseo Kim (March 2024 \~ )
 
 -   Min Ju Kim (March 2024 \~ )
 
 -   Seungyeon Lim (March 2024 \~ )
 
-### Undergraduate interns
-
--   Seungyeon Back (March 2024 \~ )
-
--   Man Hwi Han (March 2024 \~ )
 
 ![February 2025](images/Lab2025-Feb1.jpg){}
 
@@ -39,11 +32,28 @@ options(knitr.table.format = "html")
 
 ### Master's degree
 
+-   Inguk Ka (February 2025)
+    - Verification of TKAN's Superiority in Time Series Characteristics: Performance Comparison with LSTM and GRU
+
+```{=html}
+<!--
+2023년 3월 ~ 2025년 2월
+취업준비
+-->
+```
+
 -   Bobae Lee (February 2024)
     -   Analyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model
 
 ```{=html}
 <!--
+2022년 3월 ~ 2024년 2월
 국립산림과학원
 -->
 ```
+
+### Undergraduate interns
+
+-   Seungyeon Back (March 2024 \~ February 2025)
+
+-   Man Hwi Han (March 2024 \~ February 2025)
