@@ -18,6 +18,10 @@ website:
       - about.qmd
       - projects.qmd
       - students.qmd
+      - text: "Courses"
+        menu:
+        - text: "AI and Machine Learning (2025 Spring)"
+          href: https://seoncheolpark.github.io/course-introml
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
