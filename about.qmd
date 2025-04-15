@@ -96,8 +96,9 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 ```
 ```{=html}
 
-1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, In press.
 <!--
+1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2024+). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, In press.
+
 ### Under Review
 -->
 ```
