@@ -20,8 +20,8 @@ website:
       - students.qmd
       - text: "Courses"
         menu:
-        - text: "AI and Machine Learning (2025 Spring)"
-          href: https://seoncheolpark.github.io/course-introml
+        - text: "Statistical Data Science (2025 Fall)"
+          href: https://seoncheolpark.github.io/course-ml
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
