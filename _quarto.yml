@@ -20,6 +20,8 @@ website:
       - students.qmd
       - text: "Courses"
         menu:
+        - text: "Sataistical Methods for Data Analysis (2025 Fall)"
+          href: https://seoncheolpark.github.io/course-compstat
         - text: "Statistical Data Science (2025 Fall)"
           href: https://seoncheolpark.github.io/course-ml
     right: 
