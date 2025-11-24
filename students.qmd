@@ -25,9 +25,11 @@ options(knitr.table.format = "html")
 
 -   Seungyeon Lim (March 2024 \~ )
 
-- Haju Kang (March 2025 \~ )
+-   Haju Kang (March 2025 \~ )
 
-- Minseok Choi (March 2025 \~ )
+-   Minseok Choi (March 2025 \~ )
+
+-   Gwangbin Jung (September 2025 \~ )
 
 
 ![February 2025](images/Lab2025-Feb1.jpg){}
