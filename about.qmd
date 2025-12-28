@@ -57,11 +57,11 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ::: {}
 
-1. H. Park, J. Kim${}^\ast$ and **S. Park**${}^\ast$ (2025+). Expectile-based Probabilistic Forecasting for Spatio-Temporal River Network Data. *International Journal of Forecasting*, Accepted for publication.
+1. H. Park, J. Kim${}^\ast$ and **S. Park**${}^\ast$ (2025+). Expectile-based probabilistic forecasting for spatio-temporal river network data. *International Journal of Forecasting*, Accepted for publication.
 
 1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2025). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, **28(1)**, 123--148.
 
-1. B. Lee${}^{\ast\ast}$, H-D. Sou${}^\ast$, P. Yeon, H. Lee, C-R. Park, S. Choi and **S. Park**${}^\ast$ (2024). [Seasonal Characteristics of Particulate Matter by Pollution Source Type and Urban Forest Type.](https://doi.org/10.3390/app14219988) *Applied Sciences*, **14(21)**, 9988.
+1. B. Lee${}^{\ast\ast}$, H-D. Sou${}^\ast$, P. Yeon, H. Lee, C-R. Park, S. Choi and **S. Park**${}^\ast$ (2024). [Seasonal characteristics of particulate matter by pollution source type and urban forest type.](https://doi.org/10.3390/app14219988) *Applied Sciences*, **14(21)**, 9988.
 
 1. S. Cho, D-K. Kim, M-C. Song, E. Lee, **S. Park**, D. Chung and J. Ha${}^\ast$ (2024). [Deciphering changes in the incidence of hemorrhagic stroke and cerebral venous sinus thrombosis during the coronavirus disease 2019 pandemic: a nationwide time-series correlation study.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301313) *PLOS ONE*, **19(10)**, e0301313.
 
@@ -232,13 +232,13 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 -   Statistical Computing / Statistical Methods for Data Analysis (2023 Fall, 2024 Fall, 2025 Fall)
 
--   Introduction to Regression Analysis (2024 Spring)
+-   Introduction to Regression Analysis (2024 Spring, 2026 Spring)
 
 -   Artificial Intelligence and Machine Learning (2023 Spring, 2024 Spring, 2025 Spring)
 
 #### Graduate Courses
 
--   Regression Analysis (2024 Spring)
+-   Regression Analysis (2024 Spring, 2026 Spring)
 
 -   Nonparametric Statistics (2024 Fall)
 
