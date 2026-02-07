@@ -26,7 +26,7 @@ a **true** random number!
 -->
 ````
 
-Now I am an assistant professor at the [Department of Mathematics](http://math.hanyang.ac.kr/) and the [Department of Applied Statistics](http://stat.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/), South Korea. Before joining Hanyang University, I worked as an assistant professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr), [Chungbuk National University](http://www.cbnu.ac.kr) for two years. Also, I was a post-doctoral research fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/) under the supervision of Prof. [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. degree in statistics at Seoul National University under the supervision of Prof. [Hee-Seok Oh](https://sites.google.com/site/heeseokoh). I was also a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
+I am an Assistant Professor at the [Department of Mathematics](http://math.hanyang.ac.kr/) and the [Department of Applied Statistics](http://stat.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/), South Korea. Prior to joining Hanyang University, I worked as an Assistant Professor at the [Department of Information Statistics](http://stat.chungbuk.ac.kr) at [Chungbuk National University](http://www.cbnu.ac.kr) for two years. I was also a Postdoctoral Research Fellow at the [Pacific Climate Impacts Consortium](https://www.pacificclimate.org/) where I worked under the supervision of Professor [Francis Zwiers](https://www.pacificclimate.org/about-pcic/people/francis-zwiers). I received my Ph.D. in Statistics from Seoul National University under the supervision of Professor [Hee-Seok Oh](https://sites.google.com/site/heeseokoh), and I was a member of [Multiscale Methods in Statistics Lab](https://sites.google.com/view/snumultiscale/home).
 
 ## Professional Experiences
 
@@ -57,7 +57,7 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 
 ::: {}
 
-1. H. Park, J. Kim${}^\ast$ and **S. Park**${}^\ast$ (2025+). Expectile-based probabilistic forecasting for spatio-temporal river network data. *International Journal of Forecasting*, Accepted for publication.
+1. H. Park, **S. Park** and J. Kim${}^\ast$ (2026+). [Expectile-based probabilistic forecasting for spatio-temporal river network data.](https://www.sciencedirect.com/science/article/pii/S0169207025001207) *International Journal of Forecasting*, In Press. (I contributed equally to this work as joint first authors.)
 
 1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2025). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, **28(1)**, 123--148.
 
@@ -152,6 +152,8 @@ Now I am an assistant professor at the [Department of Mathematics](http://math.h
 ### With My Students
 
 ::: {}
+1.  종단 오믹스 자료 발현 분석을 위한 R 패키지 개발 (with Haju Kang), *2025 The Korean Statistical Society Winter Conference*, Seoul, Korea, December 2025.
+
 1. Adaptive Boosting on Linear Networks (with Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
 
 1. Outlier Detection Followed by Fault Type Prediction: Two-Stage Approach (with Min Ju Kim and Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
