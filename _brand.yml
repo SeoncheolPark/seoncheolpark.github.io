@@ -1,0 +1,21 @@
+color:
+  palette:
+    dark-grey: "#222222"
+    blue: "#ddeaf1"
+  background: blue
+  foreground: dark-grey
+  primary: black
+
+logo: 
+  images:
+    quarto-logo:
+      path: images/03.png
+      alt: "custom logo"
+  small: quarto-logo
+  
+typography:
+  fonts:
+    - family: IBM Plex Sans, Open Sans, IBM Plex Sans KR, Inter
+      source: google
+  base: IBM Plex Sans, Open Sans, IBM Plex Sans KR, Inter
+  headings: Montserrat, IBM Plex Sans KR, Inter

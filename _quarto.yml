@@ -15,7 +15,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - projects.qmd
       - students.qmd
       - text: "Courses"
@@ -27,7 +28,7 @@ website:
     right: 
       - icon: github
         href: https://github.com/SeoncheolPark
-  page-footer: "© Copyright 2025, Seoncheol Park"
+  page-footer: "© Copyright 2026, Seoncheol Park"
 format:
   html:
     theme: 
@@ -35,7 +36,6 @@ format:
       dark: [minty, theme-dark.scss]
     fontsize: 1.1em
     linestretch: 1.7
-    css: styles.css
     toc: true
 
 editor: visual

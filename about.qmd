@@ -1,5 +1,25 @@
 ---
-title: "About"
+title: "Seoncheol Park"
+format:
+  html: default
+  typst:
+    title: "Seoncheol Park"
+    logo:
+      width: 1in
+      location: right-top
+      padding-right: 0.5in
+      padding-top: 0.25in
+      alt: Alternate alternate text
+    mainfont: "IBM Plex Sans"
+    font-paths: myfonts
+    keep-typ: true
+    template-partials:
+      - typst-show.typ
+format-links:
+  - html
+  - format: typst
+    text: CV
+    icon: file-pdf
 ---
 
 ```{r setup, include=FALSE}
@@ -9,9 +29,20 @@ library(kableExtra)
 options(knitr.table.format = "html")
 ```
 
-## Seoncheol Park
+## About Me
 
 ````{=html}
+<!--
+    template-partials:
+      - typst-show.typ
+
+    include-before-body:
+      text: |
+        #show heading.where(level: 1): it => 
+          align(center)[
+            text(size: 26pt, weight: "bold")[it.body]
+          ]
+-->
 <!--
 ```{r}
 getRandomNumber <- function() {
