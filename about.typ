@@ -384,6 +384,8 @@
 )
 #set text()
 #show heading: set text(font: ("Montserrat", "IBM Plex Sans KR", "Inter"), )
+#show raw.where(block: false): set text()
+#show raw.where(block: true): set text()
 #show link: set text(fill: black, )
 
 #set page(

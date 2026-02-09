@@ -19,3 +19,4 @@ typography:
       source: google
   base: IBM Plex Sans, Open Sans, IBM Plex Sans KR, Inter
   headings: Montserrat, IBM Plex Sans KR, Inter
+  monospace: IBM Plex Mono, IBM Plex Sans KR
