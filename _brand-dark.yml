@@ -9,9 +9,9 @@ color:
 logo: 
   medium: logo.png
 
-typography:
-  fonts:
-    - family: Jura
-      source: google
-  base: Jura
-  headings: Jura
+#typography:
+#  fonts:
+#    - family: Jura
+#      source: google
+#  base: Jura
+#  headings: Jura

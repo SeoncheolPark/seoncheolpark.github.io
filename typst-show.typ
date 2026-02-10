@@ -1,3 +1,7 @@
+#set page(
+  fill: white
+)
+
 #show heading: it => block(width: 100%)[
   #set text(weight: "extrabold", font: ("Noto Sans KR"))
   #(it.body)
