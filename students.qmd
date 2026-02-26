@@ -21,9 +21,7 @@ options(knitr.table.format = "html")
 
 -   Minseo Kim (March 2024 \~ )
 
--   Min Ju Kim (March 2024 \~ )
 
--   Seungyeon Lim (March 2024 \~ )
 
 -   Haju Kang (March 2025 \~ )
 
@@ -37,6 +35,26 @@ options(knitr.table.format = "html")
 ## Alumni
 
 ### Master's degree
+
+-   Min Ju Kim (February 2026)
+    - Anomaly Detection Followed by Fault Type Classification of Functional Data on the Semiconductor Manufacturing Process
+    
+```{=html}
+<!--
+2024년 3월 ~ 2026년 2월
+취업준비
+-->
+```
+
+-   Seungyeon Lim (February 2026)
+    - Adaptive Boosting in Linear Networks and Its Application to River Network
+    
+```{=html}
+<!--
+2024년 3월 ~ 2026년 2월
+취업준비
+-->
+```
 
 -   Inguk Ka (February 2025)
     - Verification of TKAN's Superiority in Time Series Characteristics: Performance Comparison with LSTM and GRU
