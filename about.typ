@@ -64,15 +64,14 @@
   )
 
 #let block_with_new_content(old_block, new_content) = {
-  let d = (:)
   let fields = old_block.fields()
-  fields.remove("body")
+  let _ = fields.remove("body")
   if fields.at("below", default: none) != none {
     // TODO: this is a hack because below is a "synthesized element"
     // according to the experts in the typst discord...
     fields.below = fields.below.abs
   }
-  return block.with(..fields)(new_content)
+  block.with(..fields)(new_content)
 }
 
 #let empty(v) = {
@@ -186,9 +185,9 @@
         children.at(0) + new_title  // with icon: preserve icon block + new title
       }))
 
-  block_with_new_content(old_callout,
+  align(left, block_with_new_content(old_callout,
     block(below: 0pt, new_title_block) +
-    old_callout.body.children.at(1))
+    old_callout.body.children.at(1)))
 }
 
 // 2023-10-09: #fa-icon("fa-info") is not working, so we'll eval "#fa-info()" instead
@@ -281,54 +280,61 @@
     }
    }
 
-  place(top, float: true, scope: "parent", clearance: 4mm)[
-    #if title != none {
-      align(center, block(inset: 2em)[
-        #set par(leading: heading-line-height) if heading-line-height != none
-        #set text(font: heading-family) if heading-family != none
-        #set text(weight: heading-weight)
-        #set text(style: heading-style) if heading-style != "normal"
-        #set text(fill: heading-color) if heading-color != black
+  place(
+    top,
+    float: true,
+    scope: "parent",
+    clearance: 4mm,
+    block(below: 1em, width: 100%)[
 
-        #text(size: title-size)[#title #if thanks != none {
-          footnote(thanks, numbering: "*")
-          counter(footnote).update(n => n - 1)
-        }]
-        #(if subtitle != none {
-          parbreak()
-          text(size: subtitle-size)[#subtitle]
-        })
-      ])
-    }
+      #if title != none {
+        align(center, block(inset: 2em)[
+          #set par(leading: heading-line-height) if heading-line-height != none
+          #set text(font: heading-family) if heading-family != none
+          #set text(weight: heading-weight)
+          #set text(style: heading-style) if heading-style != "normal"
+          #set text(fill: heading-color) if heading-color != black
 
-    #if authors != none and authors != () {
-      let count = authors.len()
-      let ncols = calc.min(count, 3)
-      grid(
-        columns: (1fr,) * ncols,
-        row-gutter: 1.5em,
-        ..authors.map(author =>
-            align(center)[
-              #author.name \
-              #author.affiliation \
-              #author.email
-            ]
+          #text(size: title-size)[#title #if thanks != none {
+            footnote(thanks, numbering: "*")
+            counter(footnote).update(n => n - 1)
+          }]
+          #(if subtitle != none {
+            parbreak()
+            text(size: subtitle-size)[#subtitle]
+          })
+        ])
+      }
+
+      #if authors != none and authors != () {
+        let count = authors.len()
+        let ncols = calc.min(count, 3)
+        grid(
+          columns: (1fr,) * ncols,
+          row-gutter: 1.5em,
+          ..authors.map(author =>
+              align(center)[
+                #author.name \
+                #author.affiliation \
+                #author.email
+              ]
+          )
         )
-      )
-    }
+      }
 
-    #if date != none {
-      align(center)[#block(inset: 1em)[
-        #date
-      ]]
-    }
+      #if date != none {
+        align(center)[#block(inset: 1em)[
+          #date
+        ]]
+      }
 
-    #if abstract != none {
-      block(inset: 2em)[
-      #text(weight: "semibold")[#abstract-title] #h(1em) #abstract
-      ]
-    }
-  ]
+      #if abstract != none {
+        block(inset: 2em)[
+        #text(weight: "semibold")[#abstract-title] #h(1em) #abstract
+        ]
+      }
+    ]
+  )
 
   if toc {
     let title = if toc_title == none {
@@ -390,7 +396,7 @@
   numbering: "1",
   columns: 1,
 )
-#set page(background: align(right+top, box(inset: (right: 0.5in, top: 0.25in), image("images/03.png", width: 1in, alt: "Alternate alternate text"))))
+#set page(background: align(right+top, box(inset: (right: 0.5in, top: 0.25in), image("/images/03.png", width: 1in, alt: "Alternate alternate text"))))
 
 #set page(
   fill: white
@@ -528,11 +534,11 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 
 == University Grants
 <university-grants>
-- 서울-ERICA 공동연구 지원사업, #emph[Hanyang University (HYU)], June 2024 \~ May 2025.
+- Seoul--ERICA Collaborative Research Grant Program (서울-ERICA 공동연구 지원사업), #emph[Hanyang University (HYU)], June 2024 \~ May 2025.
 
-- 신임교원 정착 연구 지원사업, #emph[Hanyang University (HYU)], March 2023 \~ August 2024.
+- Start-up Research Grant (신임교원 정착 연구 지원사업), #emph[Hanyang University (HYU)], March 2023 \~ August 2024.
 
-- 신진교수 연구비 지원사업, #emph[Chungbuk National University (CBNU)], March 2021 \~ August 2022.
+- Start-up Research Grant (신진교수 연구비 지원사업), #emph[Chungbuk National University (CBNU)], March 2021 \~ August 2022.
 
 == Scholarship
 <scholarship>
@@ -565,9 +571,9 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 
 == Professional Services
 <professional-services>
-- 한국통계학회 평의원
+- Member of the Council, Korean Statistical Society (한국통계학회 평의원)
 
-- 서울특별시 스마트도시위원회 위원
+- Member, Seoul Metropolitan Government Smart City Committee (서울특별시 스마트도시위원회 위원)
 
 = Teaching
 == Hanyang University
