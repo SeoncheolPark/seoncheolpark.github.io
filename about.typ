@@ -547,27 +547,27 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 = Services
 == Referee
 <referee>
-- Theoretical and Applied Climatology
-
 - Annals of Applied Statistics
-
-- Journal of Agricultural, Biological and Environmental Statistics
-
-- Extremes
-
-- Stochastic Environmental Research and Risk Assessment
-
-- Computational Statistics
-
-- Journal of the Korean Statistical Society
 
 - Communications for Statistical Applications and Methods
 
+- Computational Statistics
+
 - Computational Statistics and Data Analysis
+
+- Epidemiology and Health
+
+- Extremes
+
+- Journal of Agricultural, Biological and Environmental Statistics
+
+- Journal of the Korean Statistical Society
 
 - Scientific Reports
 
-- Epidemiology and Health
+- Stochastic Environmental Research and Risk Assessment
+
+- Theoretical and Applied Climatology
 
 == Professional Services
 <professional-services>
