@@ -88,6 +88,8 @@ I am an Assistant Professor at the [Department of Mathematics](http://math.hanya
 
 ::: {}
 
+1. J. Kwon and **S. Park**${}^\ast$ (2026+). Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes. *Stochastic Environmental Research and Risk Assessment*, Accepted for publication.
+
 1. H. Park, **S. Park** and J. Kim${}^\ast$ (2026+). [Expectile-based probabilistic forecasting for spatio-temporal river network data.](https://www.sciencedirect.com/science/article/pii/S0169207025001207) *International Journal of Forecasting*, In Press. (I contributed equally to this work as joint first authors.)
 
 1. S. Kang, K. Kim, Y. Kwon, S. Park, **S. Park**, H-Y. Shin, J. Kim${}^\ast$ and H-S. Oh (2025). [Semiparametric approaches for the inference of univariate and multivariate extremes.](https://link.springer.com/article/10.1007/s10687-024-00497-x) *Extremes*, **28(1)**, 123--148.

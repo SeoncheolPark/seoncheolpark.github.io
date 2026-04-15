@@ -40,19 +40,10 @@
   #stack(dir: ltr, spacing: 3pt, super[#num], contents)
 ]
 
-// Use nested show rule to preserve list structure for PDF/UA-1 accessibility
-// See: https://github.com/quarto-dev/quarto-cli/pull/13249#discussion_r2678934509
-#show terms: it => {
-  show terms.item: item => {
-    set text(weight: "bold")
-    item.term
-    block(inset: (left: 1.5em, top: -0.4em))[#item.description]
-  }
-  it
-}
-
-// Prevent breaking inside definition items, i.e., keep term and description together.
-#show terms.item: set block(breakable: false)
+#show terms.item: it => block(breakable: false)[
+  #text(weight: "bold")[#it.term]
+  #block(inset: (left: 1.5em, top: -0.4em))[#it.description]
+]
 
 // Some quarto-specific definitions.
 
@@ -444,6 +435,8 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 \($zws^(*)$: Corresponding author, and $zws^(* *)$: Students I supervised)
 
 #block[
++ J. Kwon and #strong[S. Park]$zws^(*)$ (2026+). Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes. #emph[Stochastic Environmental Research and Risk Assessment], Accepted for publication.
+
 + H. Park, #strong[S. Park] and J. Kim$zws^(*)$ (2026+). #link("https://www.sciencedirect.com/science/article/pii/S0169207025001207")[Expectile-based probabilistic forecasting for spatio-temporal river network data.] #emph[International Journal of Forecasting], In Press. (I contributed equally to this work as joint first authors.)
 
 + S. Kang, K. Kim, Y. Kwon, S. Park, #strong[S. Park], H-Y. Shin, J. Kim$zws^(*)$ and H-S. Oh (2025). #link("https://link.springer.com/article/10.1007/s10687-024-00497-x")[Semiparametric approaches for the inference of univariate and multivariate extremes.] #emph[Extremes], #strong[28(1)], 123--148.
