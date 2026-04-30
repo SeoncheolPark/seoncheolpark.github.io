@@ -21,13 +21,15 @@ options(knitr.table.format = "html")
 
 -   Minseo Kim (March 2024 \~ )
 
-
-
 -   Haju Kang (March 2025 \~ )
 
 -   Minseok Choi (March 2025 \~ )
 
 -   Gwangbin Jung (September 2025 \~ )
+
+-   Jung Park (March 2026 \~ )
+
+-   Yongjin Jeong (March 2026 \~ )
 
 
 ![February 2025](images/Lab2025-Feb1.jpg){}
