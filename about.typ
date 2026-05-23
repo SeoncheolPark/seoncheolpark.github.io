@@ -435,9 +435,11 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 \($zws^(*)$: Corresponding author, and $zws^(* *)$: Students I supervised)
 
 #block[
-+ J. Kwon and #strong[S. Park]$zws^(*)$ (2026+). Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes. #emph[Stochastic Environmental Research and Risk Assessment], Accepted for publication.
++ J. Kwon and #strong[S. Park]$zws^(*)$ (2026+). #link("https://link.springer.com/article/10.1007/s00477-026-03249-4")[Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.] #emph[Stochastic Environmental Research and Risk Assessment], In Press.
 
 + H. Park, #strong[S. Park] and J. Kim$zws^(*)$ (2026+). #link("https://www.sciencedirect.com/science/article/pii/S0169207025001207")[Expectile-based probabilistic forecasting for spatio-temporal river network data.] #emph[International Journal of Forecasting], In Press. (I contributed equally to this work as joint first authors.)
+
++ B. Lee$zws^(* *)$, H-D. Sou$zws^(*)$, #strong[S. Park] and C-R. Park (2026). #link("https://doi.org/10.3390/f17050588")[Source-context differences in particulate matter removal dynamics of urban forests: evidence from two-year field measurements.] #emph[Forests], #strong[17(5)], 588.
 
 + S. Kang, K. Kim, Y. Kwon, S. Park, #strong[S. Park], H-Y. Shin, J. Kim$zws^(*)$ and H-S. Oh (2025). #link("https://link.springer.com/article/10.1007/s10687-024-00497-x")[Semiparametric approaches for the inference of univariate and multivariate extremes.] #emph[Extremes], #strong[28(1)], 123--148.
 
@@ -468,9 +470,11 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 == Talks and Posters
 <talks-and-posters>
 #block[
-+ #link("https://github.com/SeoncheolPark/seoncheolpark.github.io/blob/master/files/250724_Taiwan.pdf")[Statistical Modeling of Water Quality Data on River Networks], #link("https://www3.stat.sinica.edu.tw/wss2025/")[#emph[2025 Workshop on Spatial Statistics and Related Fields]], Taipei, Taiwan, July 2025.
++ Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes, #emph[2026 The Korean Data Information Science Society Spring Conference], Jeju, Korea, May 2026.
 
-+ #link("https://webpageprodvm.ntu.edu.tw/IASC-ARS_Interim_2024/cp.aspx?n=190889")[Clustering of Mountain Hiking GPS-Trajectory Data], #emph[IASC-ARS Interim Conference 2024], Taipei, Taiwan, December 2024.
++ #link("https://github.com/SeoncheolPark/seoncheolpark.github.io/blob/master/files/250724_Taiwan.pdf")[Statistical modeling of water quality data on river networks], #link("https://www3.stat.sinica.edu.tw/wss2025/")[#emph[2025 Workshop on Spatial Statistics and Related Fields]], Taipei, Taiwan, July 2025.
+
++ #link("https://webpageprodvm.ntu.edu.tw/IASC-ARS_Interim_2024/cp.aspx?n=190889")[Clustering of mountain hiking GPS-trajectory data], #emph[IASC-ARS Interim Conference 2024], Taipei, Taiwan, December 2024.
 
 + Estimation of marine heatwaves in the East Sea: The extreme value generalized additive model approach, #emph[Asia Oceania Geosciences Society (AOGS) 2024 21#super[th] Annual Meeting], Pyeongchang, Korea, June 2024.
 
