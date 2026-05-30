@@ -435,6 +435,8 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 \($zws^(*)$: Corresponding author, and $zws^(* *)$: Students I supervised)
 
 #block[
++ M. Kim$zws^(* *)$, S. Lim$zws^(* *)$, J. Jeon and #strong[S. Park] (2026+). Anomaly Detection Followed by Fault Type Classification of Functional Data on the Semiconductor Manufacturing Process. #emph[Communications for Statistical Applications and Methods], Accepted for publication.
+
 + J. Kwon and #strong[S. Park]$zws^(*)$ (2026+). #link("https://link.springer.com/article/10.1007/s00477-026-03249-4")[Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.] #emph[Stochastic Environmental Research and Risk Assessment], In Press.
 
 + H. Park, #strong[S. Park] and J. Kim$zws^(*)$ (2026+). #link("https://www.sciencedirect.com/science/article/pii/S0169207025001207")[Expectile-based probabilistic forecasting for spatio-temporal river network data.] #emph[International Journal of Forecasting], In Press. (I contributed equally to this work as joint first authors.)
