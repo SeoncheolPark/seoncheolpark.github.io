@@ -88,7 +88,7 @@ I am an Assistant Professor at the [Department of Mathematics](http://math.hanya
 
 ::: {}
 
-1. M. Kim${}^{\ast\ast}$, S. Lim${}^{\ast\ast}$, J. Jeon and **S. Park**${}^\ast$ (2026+). Anomaly Detection Followed by Fault Type Classification of Functional Data on the Semiconductor Manufacturing Process. *Communications for Statistical Applications and Methods*, Accepted for publication.
+1. M. Kim${}^{\ast\ast}$, S. Lim${}^{\ast\ast}$, J. Jeon and **S. Park**${}^\ast$ (2026+). Anomaly detection followed by fault type classification of functional data on the semiconductor manufacturing process. *Communications for Statistical Applications and Methods*, Accepted for publication.
 
 1. J. Kwon and **S. Park**${}^\ast$ (2026+). [Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.](https://link.springer.com/article/10.1007/s00477-026-03249-4) *Stochastic Environmental Research and Risk Assessment*, In Press.
 
