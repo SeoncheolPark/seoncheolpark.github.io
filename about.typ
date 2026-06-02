@@ -437,9 +437,9 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 #block[
 + M. Kim$zws^(* *)$, S. Lim$zws^(* *)$, J. Jeon and #strong[S. Park]$zws^(*)$ (2026+). Anomaly detection followed by fault type classification of functional data on the semiconductor manufacturing process. #emph[Communications for Statistical Applications and Methods], Accepted for publication.
 
-+ J. Kwon and #strong[S. Park]$zws^(*)$ (2026+). #link("https://link.springer.com/article/10.1007/s00477-026-03249-4")[Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.] #emph[Stochastic Environmental Research and Risk Assessment], In Press.
-
 + H. Park, #strong[S. Park] and J. Kim$zws^(*)$ (2026+). #link("https://www.sciencedirect.com/science/article/pii/S0169207025001207")[Expectile-based probabilistic forecasting for spatio-temporal river network data.] #emph[International Journal of Forecasting], In Press. (I contributed equally to this work as joint first authors.)
+
++ J. Kwon and #strong[S. Park]$zws^(*)$ (2026). #link("https://link.springer.com/article/10.1007/s00477-026-03249-4")[Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.] #emph[Stochastic Environmental Research and Risk Assessment], #strong[40(6)], 138.
 
 + B. Lee$zws^(* *)$, H-D. Sou$zws^(*)$, #strong[S. Park] and C-R. Park (2026). #link("https://doi.org/10.3390/f17050588")[Source-context differences in particulate matter removal dynamics of urban forests: evidence from two-year field measurements.] #emph[Forests], #strong[17(5)], 588.
 

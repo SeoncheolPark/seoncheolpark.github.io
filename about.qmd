@@ -90,9 +90,9 @@ I am an Assistant Professor at the [Department of Mathematics](http://math.hanya
 
 1. M. Kim${}^{\ast\ast}$, S. Lim${}^{\ast\ast}$, J. Jeon and **S. Park**${}^\ast$ (2026+). Anomaly detection followed by fault type classification of functional data on the semiconductor manufacturing process. *Communications for Statistical Applications and Methods*, Accepted for publication.
 
-1. J. Kwon and **S. Park**${}^\ast$ (2026+). [Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.](https://link.springer.com/article/10.1007/s00477-026-03249-4) *Stochastic Environmental Research and Risk Assessment*, In Press.
-
 1. H. Park, **S. Park** and J. Kim${}^\ast$ (2026+). [Expectile-based probabilistic forecasting for spatio-temporal river network data.](https://www.sciencedirect.com/science/article/pii/S0169207025001207) *International Journal of Forecasting*, In Press. (I contributed equally to this work as joint first authors.)
+
+1. J. Kwon and **S. Park**${}^\ast$ (2026). [Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes.](https://link.springer.com/article/10.1007/s00477-026-03249-4) *Stochastic Environmental Research and Risk Assessment*, **40(6)**, 138.
 
 1. B. Lee${}^{\ast\ast}$, H-D. Sou${}^\ast$, **S. Park** and C-R. Park (2026). [Source-context differences in particulate matter removal dynamics of urban forests: evidence from two-year field measurements.](https://doi.org/10.3390/f17050588) *Forests*, **17(5)**, 588.
 

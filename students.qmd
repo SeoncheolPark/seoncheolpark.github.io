@@ -9,7 +9,7 @@ library(kableExtra)
 options(knitr.table.format = "html")
 ```
 
-## Current Students
+## Extreme Value Statistics Lab: Current Students
 
 ### Master's students
 
