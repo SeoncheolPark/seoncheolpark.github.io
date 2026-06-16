@@ -472,6 +472,8 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 == Talks and Posters
 <talks-and-posters>
 #block[
++ Adaptive boosting on linear networks, #link("https://ims-aprm2026.sta.cuhk.edu.hk/program/invited-paper-sessions")[#emph[IMS Asia Pacific Rim Meeting 2026]], Hong Kong, Hong Kong, June 2026.
+
 + Characterizing local hazard scales of lightning strokes via nonparametric spatio-temporal Hawkes processes, #emph[2026 The Korean Data Information Science Society Spring Conference], Jeju, Korea, May 2026.
 
 + #link("https://github.com/SeoncheolPark/seoncheolpark.github.io/blob/master/files/250724_Taiwan.pdf")[Statistical modeling of water quality data on river networks], #link("https://www3.stat.sinica.edu.tw/wss2025/")[#emph[2025 Workshop on Spatial Statistics and Related Fields]], Taipei, Taiwan, July 2025.
