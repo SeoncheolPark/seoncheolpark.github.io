@@ -508,11 +508,11 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 == With My Students
 <with-my-students>
 #block[
-+ 종단 오믹스 자료 발현 분석을 위한 R 패키지 개발 (with Haju Kang), #emph[2025 The Korean Statistical Society Winter Conference], Seoul, Korea, December 2025.
++ Development of an R package for the analysis of longitudinal omics data expression (종단 오믹스 자료 발현 분석을 위한 R 패키지 개발, with Haju Kang), #emph[2025 The Korean Statistical Society Winter Conference], Seoul, Korea, December 2025.
 
-+ Adaptive Boosting on Linear Networks (with Seungyeon Lim), #emph[2025 The Korean Statistical Society Summer Conference], Gyeongju, Korea, June 2025.
++ Adaptive boosting on linear networks (with Seungyeon Lim), #emph[2025 The Korean Statistical Society Summer Conference], Gyeongju, Korea, June 2025.
 
-+ Outlier Detection Followed by Fault Type Prediction: Two-Stage Approach (with Min Ju Kim and Seungyeon Lim), #emph[2025 The Korean Statistical Society Summer Conference], Gyeongju, Korea, June 2025.
++ Outlier detection followed by fault type prediction: Two-Stage Approach (with Minju Kim and Seungyeon Lim), #emph[2025 The Korean Statistical Society Summer Conference], Gyeongju, Korea, June 2025.
 
 + Prediction of sharp change of particulate Matter in Seoul via quantile mapping (with Jeongeun Lee), #emph[2022 The Korean Statistical Society Summer Conference], Seoul, Korea, June 2022.
 

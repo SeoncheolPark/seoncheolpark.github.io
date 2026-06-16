@@ -193,11 +193,11 @@ I am an Assistant Professor at the [Department of Mathematics](http://math.hanya
 ### With My Students
 
 ::: {}
-1.  종단 오믹스 자료 발현 분석을 위한 R 패키지 개발 (with Haju Kang), *2025 The Korean Statistical Society Winter Conference*, Seoul, Korea, December 2025.
+1.  Development of an R package for the analysis of longitudinal omics data expression (종단 오믹스 자료 발현 분석을 위한 R 패키지 개발, with Haju Kang), *2025 The Korean Statistical Society Winter Conference*, Seoul, Korea, December 2025.
 
-1. Adaptive Boosting on Linear Networks (with Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
+1. Adaptive boosting on linear networks (with Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
 
-1. Outlier Detection Followed by Fault Type Prediction: Two-Stage Approach (with Min Ju Kim and Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
+1. Outlier detection followed by fault type prediction: Two-Stage Approach (with Minju Kim and Seungyeon Lim), *2025 The Korean Statistical Society Summer Conference*, Gyeongju, Korea, June 2025.
 
 1. Prediction of sharp change of particulate Matter in Seoul via quantile mapping (with Jeongeun Lee), *2022 The Korean Statistical Society Summer Conference*, Seoul, Korea, June 2022.
 
