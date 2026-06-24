@@ -435,6 +435,8 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 \($zws^(*)$: Corresponding author, and $zws^(* *)$: Students I supervised)
 
 #block[
++ S. Lim$zws^(* *)$ and #strong[S. Park]$zws^(*)$ (2026+). Adaptive Boosting on Linear Networks. #emph[Spatial Statistics], Accepted for publication.
+
 + M. Kim$zws^(* *)$, S. Lim$zws^(* *)$, J. Jeon and #strong[S. Park]$zws^(*)$ (2026+). Anomaly detection followed by fault type classification of functional data on the semiconductor manufacturing process. #emph[Communications for Statistical Applications and Methods], Accepted for publication.
 
 + H. Park, #strong[S. Park] and J. Kim$zws^(*)$ (2026+). #link("https://www.sciencedirect.com/science/article/pii/S0169207025001207")[Expectile-based probabilistic forecasting for spatio-temporal river network data.] #emph[International Journal of Forecasting], In Press. (I contributed equally to this work as joint first authors.)

@@ -88,6 +88,8 @@ I am an Assistant Professor at the [Department of Mathematics](http://math.hanya
 
 ::: {}
 
+1. S. Lim${}^{\ast\ast}$ and **S. Park**${}^\ast$ (2026+). Adaptive Boosting on Linear Networks. *Spatial Statistics*, Accepted for publication.
+
 1. M. Kim${}^{\ast\ast}$, S. Lim${}^{\ast\ast}$, J. Jeon and **S. Park**${}^\ast$ (2026+). Anomaly detection followed by fault type classification of functional data on the semiconductor manufacturing process. *Communications for Statistical Applications and Methods*, Accepted for publication.
 
 1. H. Park, **S. Park** and J. Kim${}^\ast$ (2026+). [Expectile-based probabilistic forecasting for spatio-temporal river network data.](https://www.sciencedirect.com/science/article/pii/S0169207025001207) *International Journal of Forecasting*, In Press. (I contributed equally to this work as joint first authors.)
