@@ -574,16 +574,16 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 
 == Professional Services
 <professional-services>
-- Member of the Council, Korean Statistical Society (한국통계학회 평의원)
+- Member of the Council, Korean Statistical Society (한국통계학회 평의원), January 2024 \~
 
-- Member, Seoul Metropolitan Government Smart City Committee (서울특별시 스마트도시위원회 위원)
+- Member, Seoul Metropolitan Government Smart City Committee (서울특별시 스마트도시위원회 위원), September 2024 \~
 
 = Teaching
 == Hanyang University
 <hanyang-university>
 === Undergraduate Courses
 <undergraduate-courses>
-- Statistical Computing / Statistical Methods for Data Analysis (2023 Fall, 2024 Fall, 2025 Fall)
+- Statistical Computing / Statistical Methods for Data Analysis (2023 Fall, 2024 Fall, 2025 Fall, 2026 Fall)
 
 - Introduction to Regression Analysis (2024 Spring, 2026 Spring)
 
@@ -593,7 +593,7 @@ I am an Assistant Professor at the #link("http://math.hanyang.ac.kr/")[Departmen
 <graduate-courses>
 - Regression Analysis (2024 Spring, 2026 Spring)
 
-- Nonparametric Statistics (2024 Fall)
+- Nonparametric Statistics (2024 Fall, 2026 Fall)
 
 - Linear Models (2025 Spring)
 
