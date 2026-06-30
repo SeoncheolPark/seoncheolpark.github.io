@@ -26,6 +26,8 @@ website:
         - text: "Statistical Data Science (2025 Fall)"
           href: https://seoncheolpark.github.io/course-ml
     right: 
+      - icon: mortarboard-fill
+        href: https://scholar.google.co.kr/citations?user=jvWN_HIAAAAJ&hl=ko
       - icon: github
         href: https://github.com/SeoncheolPark
   page-footer: "© Copyright 2026, Seoncheol Park"

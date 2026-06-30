@@ -16,31 +16,32 @@ options(knitr.table.format = "html")
 ```{=html}
 <!--
 -   Jeongeun Lee (March 2023 \~)
+수자원공사
+보건사회연구원
 -->
 ```
 
--   Minseo Kim (March 2024 \~ )
+- Minseo Kim (March 2024 \~ )
 
--   Haju Kang (March 2025 \~ )
+- Haju Kang (March 2025 \~ )
 
--   Minseok Choi (March 2025 \~ )
+- Minseok Choi (March 2025 \~ )
 
--   Gwangbin Jung (September 2025 \~ )
+- Gwangbin Jung (September 2025 \~ )
 
--   Jung Park (March 2026 \~ )
+- Jung Park (March 2026 \~ )
 
--   Yongjin Jeong (March 2026 \~ )
+- Yongjin Jeong (March 2026 \~ )
 
-
-![February 2025](images/Lab2025-Feb1.jpg){}
+![February 2025](images/Lab2025-Feb1.jpg)
 
 ## Alumni
 
 ### Master's degree
 
--   Minju Kim (February 2026)
-    - Anomaly Detection Followed by Fault Type Classification of Functional Data on the Semiconductor Manufacturing Process
-    
+- Minju Kim (February 2026)
+  - Anomaly Detection Followed by Fault Type Classification of Functional Data on the Semiconductor Manufacturing Process
+
 ```{=html}
 <!--
 2024년 3월 ~ 2026년 2월
@@ -48,9 +49,9 @@ options(knitr.table.format = "html")
 -->
 ```
 
--   Seungyeon Lim (February 2026)
-    - Adaptive Boosting in Linear Networks and Its Application to River Network
-    
+- Seungyeon Lim (February 2026)
+  - Adaptive Boosting in Linear Networks and Its Application to River Network
+
 ```{=html}
 <!--
 2024년 3월 ~ 2026년 2월
@@ -58,18 +59,19 @@ options(knitr.table.format = "html")
 -->
 ```
 
--   Inguk Ka (February 2025)
-    - Verification of TKAN's Superiority in Time Series Characteristics: Performance Comparison with LSTM and GRU
+- Inguk Ka (February 2025)
+  - Verification of TKAN's Superiority in Time Series Characteristics: Performance Comparison with LSTM and GRU
 
 ```{=html}
 <!--
 2023년 3월 ~ 2025년 2월
 취업준비
+2026년 6월 공영홈쇼핑
 -->
 ```
 
--   Bobae Lee (February 2024)
-    -   Analyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model
+- Bobae Lee (February 2024)
+  - Analyzing the Reduction Effect of Particulate Matter in Urban Forests Using the Random Effects Model
 
 ```{=html}
 <!--
@@ -80,6 +82,6 @@ options(knitr.table.format = "html")
 
 ### Undergraduate interns
 
--   Seungyeon Back (March 2024 \~ February 2025)
+- Seungyeon Back (March 2024 \~ February 2025)
 
--   Man Hwi Han (March 2024 \~ February 2025)
+- Man Hwi Han (March 2024 \~ February 2025)
